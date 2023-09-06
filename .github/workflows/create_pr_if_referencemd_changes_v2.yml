@@ -22,8 +22,8 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Fetch Commits from Repository Google Transit
         id: fetch-commits
@@ -87,7 +87,7 @@ jobs:
           base: ${{ steps.create-branch-commit.outputs.base_branch }}
           title: Changes made to `reference.md` from Google Transit's repo
           body: Commits have been made to the `reference.md` file in the last 24 hours. Automatically generated a pull request.
-          author: frederic-contractor@mobilitydata.org
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
           reviewers: emmambd  # Comma-separated list of reviewers
           assignees: emmambd  # Comma-separated list of assignees
           add-paths: ${{ steps.extract-file-paths.outputs.file-paths }}
