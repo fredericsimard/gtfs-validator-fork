@@ -1,0 +1,1931 @@
+[
+  {
+    "sha": "4dcefae297a70a75031e1a912992dd3caa1f3416",
+    "node_id": "C_kwDOAlVrjdoAKDRkY2VmYWUyOTdhNzBhNzUwMzFlMWE5MTI5OTJkZDNjYWExZjM0MTY",
+    "commit": {
+      "author": {
+        "name": "Tzu-Jen Chan",
+        "email": "126435471+tzujenchanmbd@users.noreply.github.com",
+        "date": "2023-08-02T17:27:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-08-02T17:27:01Z"
+      },
+      "message": "fare_media_type=1 (#385)\n\nAdded fare_media_type=1 in description",
+      "tree": {
+        "sha": "449fb6aeb4e669c1a359c9265e66e75e7c4cbb6a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/449fb6aeb4e669c1a359c9265e66e75e7c4cbb6a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/4dcefae297a70a75031e1a912992dd3caa1f3416",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkypHlCRBK7hj4Ov3rIwAALWQIABNZSa1LYoETZ/1tfHCZbndu\nBZxLS+aocXU43xt9B9AIWOWti2msN3WPNxz87yY0O+9jEA6vCrLwxG7C3m2jKwUL\ndotdzMhir+48s2ImsyB7Fy4fqS1FrSxikiwyH7DqPKrNOdItz+l8WrFrJECqnFpz\nX32GS/7f9PyzAW2mtM77PrUa3OTLdtlBER9ufeB7RY4MJ8B2gtpaBDCg+/LCnFBA\nXKJgRY1bUPjASZFd8A1VPXRANH2l9o2oxhrgRCFuhb6ESQOzz/ZHZydsBZHdbqjJ\njF3tIbkk4S+586vmX3B8aqBVdeAf3TkyjMBz6a2OnQSjavbHM0LM6IJQ7YyGhIU=\n=xy6M\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 449fb6aeb4e669c1a359c9265e66e75e7c4cbb6a\nparent 8c573420c80764419cc616718f104c791cd792cc\nauthor Tzu-Jen Chan <126435471+tzujenchanmbd@users.noreply.github.com> 1690997221 -0400\ncommitter GitHub <noreply@github.com> 1690997221 -0400\n\nfare_media_type=1 (#385)\n\nAdded fare_media_type=1 in description"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/4dcefae297a70a75031e1a912992dd3caa1f3416",
+    "html_url": "https://github.com/google/transit/commit/4dcefae297a70a75031e1a912992dd3caa1f3416",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/4dcefae297a70a75031e1a912992dd3caa1f3416/comments",
+    "author": {
+      "login": "tzujenchanmbd",
+      "id": 126435471,
+      "node_id": "U_kgDOB4lAjw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126435471?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzujenchanmbd",
+      "html_url": "https://github.com/tzujenchanmbd",
+      "followers_url": "https://api.github.com/users/tzujenchanmbd/followers",
+      "following_url": "https://api.github.com/users/tzujenchanmbd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzujenchanmbd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzujenchanmbd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzujenchanmbd/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzujenchanmbd/orgs",
+      "repos_url": "https://api.github.com/users/tzujenchanmbd/repos",
+      "events_url": "https://api.github.com/users/tzujenchanmbd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzujenchanmbd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8c573420c80764419cc616718f104c791cd792cc",
+        "url": "https://api.github.com/repos/google/transit/commits/8c573420c80764419cc616718f104c791cd792cc",
+        "html_url": "https://github.com/google/transit/commit/8c573420c80764419cc616718f104c791cd792cc"
+      }
+    ]
+  },
+  {
+    "sha": "8c573420c80764419cc616718f104c791cd792cc",
+    "node_id": "C_kwDOAlVrjdoAKDhjNTczNDIwYzgwNzY0NDE5Y2M2MTY3MThmMTA0Yzc5MWNkNzkyY2M",
+    "commit": {
+      "author": {
+        "name": "Tzu-Jen Chan",
+        "email": "126435471+tzujenchanmbd@users.noreply.github.com",
+        "date": "2023-08-01T16:17:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-08-01T16:17:20Z"
+      },
+      "message": "Clarify implied timezone in stop_times.txt (#378)\n\n* arri/dept time updates\r\n\r\nClarify implied timezone for time values at stop_times.arrival_time & stop_times.departure_time\r\n\r\n* Removed \"local time\"\r\n\r\nRemoved \"local time\" from Field Type: Time\r\n\r\n* Remove \"for the day on which the trip schedule begins\"\r\n\r\ncomment from derhuerst - https://github.com/google/transit/pull/378#discussion_r1200368724\r\n\r\n* Add \"not stops.stop_timezone\"\r\n\r\nAdd \"not stops.stop_timezone\" for both departure_time and arrival_time",
+      "tree": {
+        "sha": "0a46ffd142f41b29e4e90a3daa9e5027e3811d2f",
+        "url": "https://api.github.com/repos/google/transit/git/trees/0a46ffd142f41b29e4e90a3daa9e5027e3811d2f"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/8c573420c80764419cc616718f104c791cd792cc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkyTAQCRBK7hj4Ov3rIwAAjkoIACTY56xfuWxRRMyuHCVtpElf\n2IBtuerrLy8xU08oTF5wdLaRTc85NJP80kwAOGw8DrPOWqphIYInNi2VrGSLWAYY\n1SYavg2AUYmzA498bAKcXcouzyMu7jFZrsTjoofsDBUz1iXZm6wbKf6HHUApG3Lm\njediU1p05oUO0VqKMxB14mnysIYzRpmHRsbkMOtS0iyYd9cCSjGvgIkjbYG7wAM3\nV/ZIMCIwnYbt80m3onNdQ2NT4MZAgJF7NwVVQQSv803T50bitCTJStmOqAPc3fC6\nsIzqeu7E0qIV+uS1s5/vXvObedQ4/wIjGYAqFxP2ixE0hkwHnUifq+oJ33+IORA=\n=8ByM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0a46ffd142f41b29e4e90a3daa9e5027e3811d2f\nparent 17a032142f52cda34b8f8dcd5ffb7c05968447cd\nauthor Tzu-Jen Chan <126435471+tzujenchanmbd@users.noreply.github.com> 1690906640 -0400\ncommitter GitHub <noreply@github.com> 1690906640 -0400\n\nClarify implied timezone in stop_times.txt (#378)\n\n* arri/dept time updates\r\n\r\nClarify implied timezone for time values at stop_times.arrival_time & stop_times.departure_time\r\n\r\n* Removed \"local time\"\r\n\r\nRemoved \"local time\" from Field Type: Time\r\n\r\n* Remove \"for the day on which the trip schedule begins\"\r\n\r\ncomment from derhuerst - https://github.com/google/transit/pull/378#discussion_r1200368724\r\n\r\n* Add \"not stops.stop_timezone\"\r\n\r\nAdd \"not stops.stop_timezone\" for both departure_time and arrival_time"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/8c573420c80764419cc616718f104c791cd792cc",
+    "html_url": "https://github.com/google/transit/commit/8c573420c80764419cc616718f104c791cd792cc",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/8c573420c80764419cc616718f104c791cd792cc/comments",
+    "author": {
+      "login": "tzujenchanmbd",
+      "id": 126435471,
+      "node_id": "U_kgDOB4lAjw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126435471?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzujenchanmbd",
+      "html_url": "https://github.com/tzujenchanmbd",
+      "followers_url": "https://api.github.com/users/tzujenchanmbd/followers",
+      "following_url": "https://api.github.com/users/tzujenchanmbd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzujenchanmbd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzujenchanmbd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzujenchanmbd/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzujenchanmbd/orgs",
+      "repos_url": "https://api.github.com/users/tzujenchanmbd/repos",
+      "events_url": "https://api.github.com/users/tzujenchanmbd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzujenchanmbd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+        "url": "https://api.github.com/repos/google/transit/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+        "html_url": "https://github.com/google/transit/commit/17a032142f52cda34b8f8dcd5ffb7c05968447cd"
+      }
+    ]
+  },
+  {
+    "sha": "17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+    "node_id": "C_kwDOAlVrjdoAKDE3YTAzMjE0MmY1MmNkYTM0YjhmOGRjZDVmZmI3YzA1OTY4NDQ3Y2Q",
+    "commit": {
+      "author": {
+        "name": "Emma Blue",
+        "email": "90632321+emmambd@users.noreply.github.com",
+        "date": "2023-08-01T14:55:48Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-08-01T14:55:48Z"
+      },
+      "message": "Best practices: add recommended presence (#386)\n\n* Add recommended presence\r\n\r\n* feed_info.txt best practices\r\n\r\n* route_short_name best practice\r\n\r\n* agency_id best practice\r\n\r\n* timepoint best practice\r\n\r\n* inlining image for shape_dist_traveled\r\n\r\n* shape_dist_traveled field best practices\r\n\r\n* block_id field presence best practice\r\n\r\n* Clearer recommended definition\r\n\r\n* clarity improvements\r\n\r\n* Remove \"may\" for block_id in frequency based trips\r\n\r\n* fix shape_dist_traveled cell formatting",
+      "tree": {
+        "sha": "000cd359db4b51b54a421f8f3aa9333405af04f2",
+        "url": "https://api.github.com/repos/google/transit/git/trees/000cd359db4b51b54a421f8f3aa9333405af04f2"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkyRz0CRBK7hj4Ov3rIwAAqMwIAJ3rOO3p4foVxLv7wbrI7lQC\nqpo83udpoRCQjHwe2OH6I5xzM/Vzd5NR/M5mocOu8M006pQyIHIJ0rBM2IhM3tBy\ntpatKEpq3SDMyjHn99fL2ifGshA6tWm95IRLdls8knPXoNEz6Q+M/6W4M0QhtIyp\n1MA4axiQyFgMycrMhAn7r8dqX711W81Y3KzXmnI4qWeXVafZnE+WQP9ml3pFSps2\nM+P8/R5tpqhbHnu1rGYRInhl0VgDJL0mQ95wGmZgHbeFhNsW3r+KumHaUITRSWfK\ntKIjen50ac7mcM6IobOh6y/B/DHp18r79biaBzryL8hCcN+q/chl6OnNEt7Ya5E=\n=1JLu\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 000cd359db4b51b54a421f8f3aa9333405af04f2\nparent c50c0b90b243fb3eaaf65a1750f971c0faa210a9\nauthor Emma Blue <90632321+emmambd@users.noreply.github.com> 1690901748 -0400\ncommitter GitHub <noreply@github.com> 1690901748 -0400\n\nBest practices: add recommended presence (#386)\n\n* Add recommended presence\r\n\r\n* feed_info.txt best practices\r\n\r\n* route_short_name best practice\r\n\r\n* agency_id best practice\r\n\r\n* timepoint best practice\r\n\r\n* inlining image for shape_dist_traveled\r\n\r\n* shape_dist_traveled field best practices\r\n\r\n* block_id field presence best practice\r\n\r\n* Clearer recommended definition\r\n\r\n* clarity improvements\r\n\r\n* Remove \"may\" for block_id in frequency based trips\r\n\r\n* fix shape_dist_traveled cell formatting"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+    "html_url": "https://github.com/google/transit/commit/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd/comments",
+    "author": {
+      "login": "emmambd",
+      "id": 90632321,
+      "node_id": "MDQ6VXNlcjkwNjMyMzIx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90632321?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/emmambd",
+      "html_url": "https://github.com/emmambd",
+      "followers_url": "https://api.github.com/users/emmambd/followers",
+      "following_url": "https://api.github.com/users/emmambd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/emmambd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/emmambd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/emmambd/subscriptions",
+      "organizations_url": "https://api.github.com/users/emmambd/orgs",
+      "repos_url": "https://api.github.com/users/emmambd/repos",
+      "events_url": "https://api.github.com/users/emmambd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/emmambd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+        "url": "https://api.github.com/repos/google/transit/commits/c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+        "html_url": "https://github.com/google/transit/commit/c50c0b90b243fb3eaaf65a1750f971c0faa210a9"
+      }
+    ]
+  },
+  {
+    "sha": "c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+    "node_id": "C_kwDOAlVrjdoAKGM1MGMwYjkwYjI0M2ZiM2VhYWY2NWExNzUwZjk3MWMwZmFhMjEwYTk",
+    "commit": {
+      "author": {
+        "name": "Steve White",
+        "email": "join@steven-white.com",
+        "date": "2023-07-28T16:11:39Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-07-28T16:11:39Z"
+      },
+      "message": "Specify stop times `shape_dist_traveled` must not exceed the trip shape's maximum distance (#380)\n\n* Indicate max `shape_dist_traveled` for stop times\r\n\r\nAdded rule specifying that the `shape_dist_traveled` for a stop time must not exceed the total (maximum) distance for the shape of the given trip.\r\n\r\n* Added trip reference\r\n\r\nClarified the shape for the related trip\r\n\r\n* Minor update for Google CLA\r\n\r\nMinor update to create commit with non-private email address.",
+      "tree": {
+        "sha": "9bf092954b058cedab71b6033f7a819fc04b630f",
+        "url": "https://api.github.com/repos/google/transit/git/trees/9bf092954b058cedab71b6033f7a819fc04b630f"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkw+i7CRBK7hj4Ov3rIwAAmQgIABfRTOPIDQ/K2d54HTfzBiXz\nrIlxYvjHBOeGNZv0alavs5bHUOiiWG69YHQH+AR912ejtxgoRprbMoy2+q2rRudc\nq9CTFjtr0xZDzaoCzSnpBHL3/GlvOeGnT3C0KeuxhI2KxKaaM3CVRd38TqBSNa0K\nJA+qZMQxOitqhURKNCxqVzVHZWnySu023+J/qhk2lKe3h4Lclpiu4WTDAM6bqX5G\nOrTKsu4cc25d40PU9Lz+8uckvzbnfXuSSXb2tJ5vT9zbhW7N3T+yzubrm6u61l0R\nt7/2DU+lRP8gUzY0qYbmedCYihSP4EPtHFkCAQcsC7AwTaPu17URh4I3ZJo+Keo=\n=iC6I\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9bf092954b058cedab71b6033f7a819fc04b630f\nparent 632a819ca451d9ffa6b69c760ab5f8c0773baa65\nauthor Steve White <join@steven-white.com> 1690560699 -0700\ncommitter GitHub <noreply@github.com> 1690560699 -0400\n\nSpecify stop times `shape_dist_traveled` must not exceed the trip shape's maximum distance (#380)\n\n* Indicate max `shape_dist_traveled` for stop times\r\n\r\nAdded rule specifying that the `shape_dist_traveled` for a stop time must not exceed the total (maximum) distance for the shape of the given trip.\r\n\r\n* Added trip reference\r\n\r\nClarified the shape for the related trip\r\n\r\n* Minor update for Google CLA\r\n\r\nMinor update to create commit with non-private email address."
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+    "html_url": "https://github.com/google/transit/commit/c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/c50c0b90b243fb3eaaf65a1750f971c0faa210a9/comments",
+    "author": {
+      "login": "stevenmwhite",
+      "id": 43826990,
+      "node_id": "MDQ6VXNlcjQzODI2OTkw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43826990?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stevenmwhite",
+      "html_url": "https://github.com/stevenmwhite",
+      "followers_url": "https://api.github.com/users/stevenmwhite/followers",
+      "following_url": "https://api.github.com/users/stevenmwhite/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stevenmwhite/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stevenmwhite/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stevenmwhite/subscriptions",
+      "organizations_url": "https://api.github.com/users/stevenmwhite/orgs",
+      "repos_url": "https://api.github.com/users/stevenmwhite/repos",
+      "events_url": "https://api.github.com/users/stevenmwhite/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stevenmwhite/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "632a819ca451d9ffa6b69c760ab5f8c0773baa65",
+        "url": "https://api.github.com/repos/google/transit/commits/632a819ca451d9ffa6b69c760ab5f8c0773baa65",
+        "html_url": "https://github.com/google/transit/commit/632a819ca451d9ffa6b69c760ab5f8c0773baa65"
+      }
+    ]
+  },
+  {
+    "sha": "632a819ca451d9ffa6b69c760ab5f8c0773baa65",
+    "node_id": "C_kwDOAlVrjdoAKDYzMmE4MTljYTQ1MWQ5ZmZhNmI2OWM3NjBhYjVmOGMwNzczYmFhNjU",
+    "commit": {
+      "author": {
+        "name": "isabelle-dr",
+        "email": "isabelle@mobilitydata.org",
+        "date": "2023-07-27T13:08:14Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-07-27T13:08:14Z"
+      },
+      "message": "Add variable fares by time or day (#357)\n\n* Added timeframes\r\n\r\n* Add date-based fares\r\n\r\n* Update timeframes.txt description\r\n\r\n* Change end time from required to optional\r\n\r\n* Records with the same timeframe id must cover a 24h period\r\n\r\n* no overlap\r\n\r\n* remove requirement on 24h coverage and overlapping\r\n\r\n* fix typo\r\n\r\n* Revert changes in timeframes.end_time\r\n\r\n* move service_id to timeframes.txt\r\n\r\n* Move timeframes to the fares v2 section\r\n\r\n* rename timeframe_id to timeframe_group_id\r\n\r\n* place timeframes.txt with other Fares v2 files\r\n\r\n* Rename from/to fields + change empty semantics\r\n\r\n- Rename from_timeframe_id and to_timeframe_id to start_timeframe_group_id and to_timeframe_group_id\r\n- Change empty semantics so that an empty entry means the fare isn't affected (as opposed to the \"empty means everything except\")\r\n\r\n* add line break\r\n\r\n* Add timeframes description\r\n\r\n* Make timeframe fields required\r\n\r\n* service_id references calendar or calendar_dates\r\n\r\n* Add requirements\r\n\r\n- the whole day must be covered with timeframes if one is defined\r\n- there should not be overlapping time frames with the same timeframe_group_id and service_id\r\n\r\n* typo\r\n\r\n* Update timeframe fields description\r\n\r\n* end time is not included in the interval\r\n\r\n* Add timeframe_type field\r\n\r\n* Overlapping time frames must not be defined\r\n\r\nfor the same timeframe_group_id and service_id\r\n\r\n* introduce override\r\n\r\nIntroduce an override field in fare_leg_rules and remove the requirement of needing the whole day covered with timeframes if one is defined.\r\n\r\n* improve override description\r\n\r\n* Revert \"improve override description\"\r\n\r\nThis reverts commit d4afc6ede5eae96567b373a9400d6f0c2e907442.\r\n\r\n* improve override description\r\n\r\n* update timeframe fields description\r\n\r\nchanges \"a row\" to \"one row\"\r\n\r\n* remove timeframe fields for no exact matched found\r\n\r\n* Update descriptions for empty values:\r\n\r\n- removed the \"If there are no matching `fare_leg_rules.start_timeframe_group_id` values to the\r\n`timeframe_group_id` being filtered...\"\r\n- added \"that rule will match a particular leg if either start_timeframe_group_id is empty, or if there exists at least a row in `timeframes.txt` where all...\"\r\n\r\n* Both values need to be empty or neither should be empty\r\n\r\nas discussed in the last working group meeting\r\n\r\n* Change to local time semantics\r\n\r\nAs discussed in the working group meeting\r\n\r\n* Changed name start/end_timeframe_group_id\r\n\r\nAs discussed in working group meeting\r\n\r\n* Remove timeframe_type & priority fields\r\n\r\nChanges as discussed in working group meeting\r\n\r\n* revise \"start\" to \"end\"\r\n\r\n* Remove \"initial\" after Gavriel's comment\r\n\r\nGavriel pointed out in the proposal document that \"initial\" is un-necessary https://docs.google.com/document/d/1N3WpgAh2OxPuE5Vvjbd6mjvKK42M7mSVdxscVvzP8SU/edit\r\n\r\n* Remove unnecessary empty description\r\n\r\n* Changes based on Jeremy's feedback\r\n\r\nComment https://github.com/google/transit/pull/357#discussion_r1267080408\r\n\r\n1. Specify \"time of day\" of fare leg's start/end time\r\n2. Clarify the start_time/end_time are in timeframes.txt\r\n\r\nAdditional: change \"row\" to \" \"record\" to synchronize the rest of GTFS.\r\n\r\n* Modify empty wording\r\n\r\nBased on Hal's suggestion - https://github.com/google/transit/pull/357#issuecomment-1644360575\r\n\r\n* Move overlapping requirement out of service_id description\r\n\r\n---------\r\n\r\nCo-authored-by: omar-kabbani <78552622+omar-kabbani@users.noreply.github.com>\r\nCo-authored-by: Tzu-Jen Chan <126435471+tzujenchanmbd@users.noreply.github.com>",
+      "tree": {
+        "sha": "675ca2c132868f3b5bf0ebfa205f62db225dc016",
+        "url": "https://api.github.com/repos/google/transit/git/trees/675ca2c132868f3b5bf0ebfa205f62db225dc016"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/632a819ca451d9ffa6b69c760ab5f8c0773baa65",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkwmw+CRBK7hj4Ov3rIwAAOsMIAJlZa8Pfj5Fsl/sYj7jOGc2/\nplAJJzggbS5vaGu6ysS+vRg4l4qXzce3sdWV5spye5zJcCpoA3IQ1DxMAgMCIh45\nu3r7E1NY0YaFr/WRtSdoziahUYJMbhsg79OzfsmdogITMANQYlTolXeJXkGqPjmA\n3278kQ8QMxulO6KyH1n0GxvQT6IeCBRHkQdENN6M3tCZ67wyGmX/SsGnOPYAsmTV\nL04YfEkAK2v6yUubSTft0VJyG8AEuoD7xZxcGdr+iORDq85YxUUISH80NyxdfYuZ\n4+sLrbB+EZb4vLwpI0fuWvXA4UU7u5AScNzHIKFuyv6336UP4mFHza7H4Tvjj+A=\n=VKF9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 675ca2c132868f3b5bf0ebfa205f62db225dc016\nparent 446077180be0f79a8349ea68074ac9f80b4c5401\nauthor isabelle-dr <isabelle@mobilitydata.org> 1690463294 -0400\ncommitter GitHub <noreply@github.com> 1690463294 -0400\n\nAdd variable fares by time or day (#357)\n\n* Added timeframes\r\n\r\n* Add date-based fares\r\n\r\n* Update timeframes.txt description\r\n\r\n* Change end time from required to optional\r\n\r\n* Records with the same timeframe id must cover a 24h period\r\n\r\n* no overlap\r\n\r\n* remove requirement on 24h coverage and overlapping\r\n\r\n* fix typo\r\n\r\n* Revert changes in timeframes.end_time\r\n\r\n* move service_id to timeframes.txt\r\n\r\n* Move timeframes to the fares v2 section\r\n\r\n* rename timeframe_id to timeframe_group_id\r\n\r\n* place timeframes.txt with other Fares v2 files\r\n\r\n* Rename from/to fields + change empty semantics\r\n\r\n- Rename from_timeframe_id and to_timeframe_id to start_timeframe_group_id and to_timeframe_group_id\r\n- Change empty semantics so that an empty entry means the fare isn't affected (as opposed to the \"empty means everything except\")\r\n\r\n* add line break\r\n\r\n* Add timeframes description\r\n\r\n* Make timeframe fields required\r\n\r\n* service_id references calendar or calendar_dates\r\n\r\n* Add requirements\r\n\r\n- the whole day must be covered with timeframes if one is defined\r\n- there should not be overlapping time frames with the same timeframe_group_id and service_id\r\n\r\n* typo\r\n\r\n* Update timeframe fields description\r\n\r\n* end time is not included in the interval\r\n\r\n* Add timeframe_type field\r\n\r\n* Overlapping time frames must not be defined\r\n\r\nfor the same timeframe_group_id and service_id\r\n\r\n* introduce override\r\n\r\nIntroduce an override field in fare_leg_rules and remove the requirement of needing the whole day covered with timeframes if one is defined.\r\n\r\n* improve override description\r\n\r\n* Revert \"improve override description\"\r\n\r\nThis reverts commit d4afc6ede5eae96567b373a9400d6f0c2e907442.\r\n\r\n* improve override description\r\n\r\n* update timeframe fields description\r\n\r\nchanges \"a row\" to \"one row\"\r\n\r\n* remove timeframe fields for no exact matched found\r\n\r\n* Update descriptions for empty values:\r\n\r\n- removed the \"If there are no matching `fare_leg_rules.start_timeframe_group_id` values to the\r\n`timeframe_group_id` being filtered...\"\r\n- added \"that rule will match a particular leg if either start_timeframe_group_id is empty, or if there exists at least a row in `timeframes.txt` where all...\"\r\n\r\n* Both values need to be empty or neither should be empty\r\n\r\nas discussed in the last working group meeting\r\n\r\n* Change to local time semantics\r\n\r\nAs discussed in the working group meeting\r\n\r\n* Changed name start/end_timeframe_group_id\r\n\r\nAs discussed in working group meeting\r\n\r\n* Remove timeframe_type & priority fields\r\n\r\nChanges as discussed in working group meeting\r\n\r\n* revise \"start\" to \"end\"\r\n\r\n* Remove \"initial\" after Gavriel's comment\r\n\r\nGavriel pointed out in the proposal document that \"initial\" is un-necessary https://docs.google.com/document/d/1N3WpgAh2OxPuE5Vvjbd6mjvKK42M7mSVdxscVvzP8SU/edit\r\n\r\n* Remove unnecessary empty description\r\n\r\n* Changes based on Jeremy's feedback\r\n\r\nComment https://github.com/google/transit/pull/357#discussion_r1267080408\r\n\r\n1. Specify \"time of day\" of fare leg's start/end time\r\n2. Clarify the start_time/end_time are in timeframes.txt\r\n\r\nAdditional: change \"row\" to \" \"record\" to synchronize the rest of GTFS.\r\n\r\n* Modify empty wording\r\n\r\nBased on Hal's suggestion - https://github.com/google/transit/pull/357#issuecomment-1644360575\r\n\r\n* Move overlapping requirement out of service_id description\r\n\r\n---------\r\n\r\nCo-authored-by: omar-kabbani <78552622+omar-kabbani@users.noreply.github.com>\r\nCo-authored-by: Tzu-Jen Chan <126435471+tzujenchanmbd@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/632a819ca451d9ffa6b69c760ab5f8c0773baa65",
+    "html_url": "https://github.com/google/transit/commit/632a819ca451d9ffa6b69c760ab5f8c0773baa65",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/632a819ca451d9ffa6b69c760ab5f8c0773baa65/comments",
+    "author": {
+      "login": "isabelle-dr",
+      "id": 63653518,
+      "node_id": "MDQ6VXNlcjYzNjUzNTE4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63653518?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/isabelle-dr",
+      "html_url": "https://github.com/isabelle-dr",
+      "followers_url": "https://api.github.com/users/isabelle-dr/followers",
+      "following_url": "https://api.github.com/users/isabelle-dr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isabelle-dr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isabelle-dr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isabelle-dr/subscriptions",
+      "organizations_url": "https://api.github.com/users/isabelle-dr/orgs",
+      "repos_url": "https://api.github.com/users/isabelle-dr/repos",
+      "events_url": "https://api.github.com/users/isabelle-dr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isabelle-dr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "446077180be0f79a8349ea68074ac9f80b4c5401",
+        "url": "https://api.github.com/repos/google/transit/commits/446077180be0f79a8349ea68074ac9f80b4c5401",
+        "html_url": "https://github.com/google/transit/commit/446077180be0f79a8349ea68074ac9f80b4c5401"
+      }
+    ]
+  },
+  {
+    "sha": "446077180be0f79a8349ea68074ac9f80b4c5401",
+    "node_id": "C_kwDOAlVrjdoAKDQ0NjA3NzE4MGJlMGY3OWE4MzQ5ZWE2ODA3NGFjOWY4MGI0YzU0MDE",
+    "commit": {
+      "author": {
+        "name": "Thibaut Barrère",
+        "email": "thibaut.barrere@gmail.com",
+        "date": "2023-07-18T13:10:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-07-18T13:10:44Z"
+      },
+      "message": "Forbid subfolders in GTFS files (#379)\n\n* Forbid subfolders in GTFS files\r\n\r\nSee https://github.com/google/transit/issues/377\r\n\r\n* Update gtfs/spec/en/reference.md\r\n\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>\r\n\r\n* Simplify wording based on feedback\r\n\r\n---------\r\n\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>",
+      "tree": {
+        "sha": "63c38718de1359afbe7592f2589744df2fd8e7f4",
+        "url": "https://api.github.com/repos/google/transit/git/trees/63c38718de1359afbe7592f2589744df2fd8e7f4"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/446077180be0f79a8349ea68074ac9f80b4c5401",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkto9UCRBK7hj4Ov3rIwAAp8gIAKFx5z8x8353O5FbwW0+aTZM\nLWGx2vqTP2QeYX44WOMvX0sZmrpMFJqy4JFzjMMNWFJNsUWBhZoqUpU6RsL9u+k5\nnOK98UidwIRfgU9aBdqlXEUoU1cVB6/Zn/bdem/lseongtUhudmIkX1FfXF9JJ2q\nvluQdAEnr1vP+RaqcbTHwxwZdsc+1cFE/GJIK5WDqxEaIVQTMs8PmPFXmygaEUVi\nplMdlFUBNnlqLg5yI+MXHw1fkQOWhcUAShfFqTcTXle3TxC7+nIhA/BJIjTi6FhQ\ntDFhPrSuirdmZDExJjVf8+9tzeVf0pawpy2VIItEEroBGV1ubBLhuqMJ2D9ImM0=\n=iwjD\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 63c38718de1359afbe7592f2589744df2fd8e7f4\nparent 11a49075c1f50d0130b934833b7eeb3fe518961c\nauthor Thibaut Barrère <thibaut.barrere@gmail.com> 1689685844 +0200\ncommitter GitHub <noreply@github.com> 1689685844 -0400\n\nForbid subfolders in GTFS files (#379)\n\n* Forbid subfolders in GTFS files\r\n\r\nSee https://github.com/google/transit/issues/377\r\n\r\n* Update gtfs/spec/en/reference.md\r\n\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>\r\n\r\n* Simplify wording based on feedback\r\n\r\n---------\r\n\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/446077180be0f79a8349ea68074ac9f80b4c5401",
+    "html_url": "https://github.com/google/transit/commit/446077180be0f79a8349ea68074ac9f80b4c5401",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/446077180be0f79a8349ea68074ac9f80b4c5401/comments",
+    "author": {
+      "login": "thbar",
+      "id": 10141,
+      "node_id": "MDQ6VXNlcjEwMTQx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thbar",
+      "html_url": "https://github.com/thbar",
+      "followers_url": "https://api.github.com/users/thbar/followers",
+      "following_url": "https://api.github.com/users/thbar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thbar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thbar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thbar/subscriptions",
+      "organizations_url": "https://api.github.com/users/thbar/orgs",
+      "repos_url": "https://api.github.com/users/thbar/repos",
+      "events_url": "https://api.github.com/users/thbar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thbar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "11a49075c1f50d0130b934833b7eeb3fe518961c",
+        "url": "https://api.github.com/repos/google/transit/commits/11a49075c1f50d0130b934833b7eeb3fe518961c",
+        "html_url": "https://github.com/google/transit/commit/11a49075c1f50d0130b934833b7eeb3fe518961c"
+      }
+    ]
+  },
+  {
+    "sha": "11a49075c1f50d0130b934833b7eeb3fe518961c",
+    "node_id": "C_kwDOAlVrjdoAKDExYTQ5MDc1YzFmNTBkMDEzMGI5MzQ4MzNiN2VlYjNmZTUxODk2MWM",
+    "commit": {
+      "author": {
+        "name": "isabelle-dr",
+        "email": "isabelle@mobilitydata.org",
+        "date": "2023-03-14T16:41:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-03-14T16:41:09Z"
+      },
+      "message": "Add fare media (#355)\n\n* Add fare containers to reference.md\r\n\r\n* Update documentation\r\n\r\nClearly indicate that fare_containers.txt falls under GTFS-Fares v2 and not v1\r\nAdd fare_containers to the dataset files table\r\n\r\n* Update primary key of fare_products.txt\r\n\r\n* improve definitions\r\n\r\n* fare_container_type\r\n\r\n* add digital card option\r\n\r\n* replace with new proposal\r\n\r\n- replaced container with payment type\r\n- made fare_payment_type required\r\n- changed the id to fare_payment_type_group as a non-unique ID field\r\n\r\n* typo\r\n\r\n* improve descriptions\r\n\r\n* Fix primary key of fare_payment_types.txt\r\n\r\n* Update descriptions\r\n\r\n* format table\r\n\r\n* add space\r\n\r\n* Change fare payment type to fare payment option\r\n\r\n* Update reference.md\r\n\r\n* small fix\r\n\r\n* small fix\r\n\r\n* update fare_payment_option_name description\r\n\r\n* Update description of fare_payment_options.txt\r\n\r\n* Update with fare_payment_option_groups.txt design\r\n\r\n* Update proposal\r\n\r\n- renamed to fare media\r\n- removed the fare_medium_groups.txt file\r\n\r\n* typo\r\n\r\n* Update reference.md\r\n\r\n* update description of fare medium name\r\n\r\n* small fix\r\n\r\n* Change fare media from \"ID\" to \"Unique ID\"\r\n\r\n* Remove \"or empty\" in fare_media_type because\r\n\r\n* fix typo and add cEMV acronym\r\n\r\n* remove paper ticket (not produced)\r\n\r\n* Fix typos\r\n\r\n- \"used to use\" in fare media description\r\n- reference to fare_payment_options that wasn't removed\r\n- replace \"have\"with \"has\" in fare_media_type 2 description\r\n\r\n* Update fare media definition\r\n\r\n* solve merge conflicts\r\n\r\n* Add line break\r\n\r\n* remove line break\r\n\r\n* fix typo (additional \"for)\r\n\r\n* Update revision history\r\n\r\n* formatting fix\r\n\r\n---------\r\n\r\nCo-authored-by: omar-kabbani <78552622+omar-kabbani@users.noreply.github.com>",
+      "tree": {
+        "sha": "c69bdbc0d95bc65d2b0fb2c106ea84a9e4f98d86",
+        "url": "https://api.github.com/repos/google/transit/git/trees/c69bdbc0d95bc65d2b0fb2c106ea84a9e4f98d86"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/11a49075c1f50d0130b934833b7eeb3fe518961c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkEKOlCRBK7hj4Ov3rIwAAZL4IAD4hv3aPDzBjOvcQH12tZxoT\n/O2owfS/HWpijgSPwNphEuyKpTWgCenpowVKO0YYtm8u5CTkUElM8EfsNJpt74Ji\nCfRxmqdiUlCQj/C/c000MY1TxXiGobb393xttOoemTcA80R5sI245ujT1hZhM3c0\ngvV4QhxLjYgD6yDcDbt0kRgYkbCHRNibEabIY5QoDUn0ZZnX3v6XVNaQrr3xgCvc\neZyu+gct3dpO86qWK5THmpCBqun9eZSxNCjLCvRgJ9QaUFWPaVIhSsd4SYxTKYoy\nBHLbjfzy8qG/9K0csUpagVOOSuekjHxW6kWZ0xghaR/FgxIngWsHNtA8D+v9lM0=\n=P1bN\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c69bdbc0d95bc65d2b0fb2c106ea84a9e4f98d86\nparent 4ef3afbe359d2ec83b704cac13543ec8997dd160\nauthor isabelle-dr <isabelle@mobilitydata.org> 1678812069 -0400\ncommitter GitHub <noreply@github.com> 1678812069 -0400\n\nAdd fare media (#355)\n\n* Add fare containers to reference.md\r\n\r\n* Update documentation\r\n\r\nClearly indicate that fare_containers.txt falls under GTFS-Fares v2 and not v1\r\nAdd fare_containers to the dataset files table\r\n\r\n* Update primary key of fare_products.txt\r\n\r\n* improve definitions\r\n\r\n* fare_container_type\r\n\r\n* add digital card option\r\n\r\n* replace with new proposal\r\n\r\n- replaced container with payment type\r\n- made fare_payment_type required\r\n- changed the id to fare_payment_type_group as a non-unique ID field\r\n\r\n* typo\r\n\r\n* improve descriptions\r\n\r\n* Fix primary key of fare_payment_types.txt\r\n\r\n* Update descriptions\r\n\r\n* format table\r\n\r\n* add space\r\n\r\n* Change fare payment type to fare payment option\r\n\r\n* Update reference.md\r\n\r\n* small fix\r\n\r\n* small fix\r\n\r\n* update fare_payment_option_name description\r\n\r\n* Update description of fare_payment_options.txt\r\n\r\n* Update with fare_payment_option_groups.txt design\r\n\r\n* Update proposal\r\n\r\n- renamed to fare media\r\n- removed the fare_medium_groups.txt file\r\n\r\n* typo\r\n\r\n* Update reference.md\r\n\r\n* update description of fare medium name\r\n\r\n* small fix\r\n\r\n* Change fare media from \"ID\" to \"Unique ID\"\r\n\r\n* Remove \"or empty\" in fare_media_type because\r\n\r\n* fix typo and add cEMV acronym\r\n\r\n* remove paper ticket (not produced)\r\n\r\n* Fix typos\r\n\r\n- \"used to use\" in fare media description\r\n- reference to fare_payment_options that wasn't removed\r\n- replace \"have\"with \"has\" in fare_media_type 2 description\r\n\r\n* Update fare media definition\r\n\r\n* solve merge conflicts\r\n\r\n* Add line break\r\n\r\n* remove line break\r\n\r\n* fix typo (additional \"for)\r\n\r\n* Update revision history\r\n\r\n* formatting fix\r\n\r\n---------\r\n\r\nCo-authored-by: omar-kabbani <78552622+omar-kabbani@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/11a49075c1f50d0130b934833b7eeb3fe518961c",
+    "html_url": "https://github.com/google/transit/commit/11a49075c1f50d0130b934833b7eeb3fe518961c",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/11a49075c1f50d0130b934833b7eeb3fe518961c/comments",
+    "author": {
+      "login": "isabelle-dr",
+      "id": 63653518,
+      "node_id": "MDQ6VXNlcjYzNjUzNTE4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63653518?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/isabelle-dr",
+      "html_url": "https://github.com/isabelle-dr",
+      "followers_url": "https://api.github.com/users/isabelle-dr/followers",
+      "following_url": "https://api.github.com/users/isabelle-dr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isabelle-dr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isabelle-dr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isabelle-dr/subscriptions",
+      "organizations_url": "https://api.github.com/users/isabelle-dr/orgs",
+      "repos_url": "https://api.github.com/users/isabelle-dr/repos",
+      "events_url": "https://api.github.com/users/isabelle-dr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isabelle-dr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4ef3afbe359d2ec83b704cac13543ec8997dd160",
+        "url": "https://api.github.com/repos/google/transit/commits/4ef3afbe359d2ec83b704cac13543ec8997dd160",
+        "html_url": "https://github.com/google/transit/commit/4ef3afbe359d2ec83b704cac13543ec8997dd160"
+      }
+    ]
+  },
+  {
+    "sha": "4ef3afbe359d2ec83b704cac13543ec8997dd160",
+    "node_id": "C_kwDOAlVrjdoAKDRlZjNhZmJlMzU5ZDJlYzgzYjcwNGNhYzEzNTQzZWM4OTk3ZGQxNjA",
+    "commit": {
+      "author": {
+        "name": "Evan Siroky",
+        "email": "evan.siroky@yahoo.com",
+        "date": "2023-03-02T02:08:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-03-02T02:08:42Z"
+      },
+      "message": "Fix some intra-page links (#370)",
+      "tree": {
+        "sha": "3389bdda3925e31c31a90efceaa9fb19034a925c",
+        "url": "https://api.github.com/repos/google/transit/git/trees/3389bdda3925e31c31a90efceaa9fb19034a925c"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/4ef3afbe359d2ec83b704cac13543ec8997dd160",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkAAUqCRBK7hj4Ov3rIwAAeBkIAJB2xXaEYwaHSFr9juHHvZcL\no7W/O2WB18G6EZtcEbiLnlHtnKV2E6oauUfLhl8ILHRgP8LA8JpFNZk7g9iw5TaR\nF02hbl0dUj0qSk1BGAKWbQ3J+e38MKuwpLCHzP4e6tnfBimK9qMV0gkLlEYXwwha\nj/0JbYeUSorYgmQZQ2jsnIfk49qi6f65DG6naSRKJZEwY2mg6D2XVYcyAWVcIG7K\nhYCUujLXmebCkOunL2nM9Umt9JtV3JR4u1PxSYo6x4JYrfcM8V8xlF++mj0u43WR\nsGJ6zcDfGz+9GjfHKZMyG5tg7J2bHcd9ltjvU5Miz8DrWUhlVsKS+1WHE5FL4cU=\n=dlH4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3389bdda3925e31c31a90efceaa9fb19034a925c\nparent c847cef155fc232f3e8ac8309fe8d201b98f7f53\nauthor Evan Siroky <evan.siroky@yahoo.com> 1677722922 -0800\ncommitter GitHub <noreply@github.com> 1677722922 -0500\n\nFix some intra-page links (#370)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/4ef3afbe359d2ec83b704cac13543ec8997dd160",
+    "html_url": "https://github.com/google/transit/commit/4ef3afbe359d2ec83b704cac13543ec8997dd160",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/4ef3afbe359d2ec83b704cac13543ec8997dd160/comments",
+    "author": {
+      "login": "evansiroky",
+      "id": 3112493,
+      "node_id": "MDQ6VXNlcjMxMTI0OTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112493?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/evansiroky",
+      "html_url": "https://github.com/evansiroky",
+      "followers_url": "https://api.github.com/users/evansiroky/followers",
+      "following_url": "https://api.github.com/users/evansiroky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evansiroky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evansiroky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evansiroky/subscriptions",
+      "organizations_url": "https://api.github.com/users/evansiroky/orgs",
+      "repos_url": "https://api.github.com/users/evansiroky/repos",
+      "events_url": "https://api.github.com/users/evansiroky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evansiroky/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c847cef155fc232f3e8ac8309fe8d201b98f7f53",
+        "url": "https://api.github.com/repos/google/transit/commits/c847cef155fc232f3e8ac8309fe8d201b98f7f53",
+        "html_url": "https://github.com/google/transit/commit/c847cef155fc232f3e8ac8309fe8d201b98f7f53"
+      }
+    ]
+  },
+  {
+    "sha": "c847cef155fc232f3e8ac8309fe8d201b98f7f53",
+    "node_id": "C_kwDOAlVrjdoAKGM4NDdjZWYxNTVmYzIzMmYzZThhYzgzMDlmZThkMjAxYjk4ZjdmNTM",
+    "commit": {
+      "author": {
+        "name": "isabelle-dr",
+        "email": "isabelle@mobilitydata.org",
+        "date": "2023-02-08T22:15:51Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-08T22:15:51Z"
+      },
+      "message": "Update reference.md (#368)",
+      "tree": {
+        "sha": "e2a66131e4bbf0c9adc755a5e48cfc2db3933f36",
+        "url": "https://api.github.com/repos/google/transit/git/trees/e2a66131e4bbf0c9adc755a5e48cfc2db3933f36"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/c847cef155fc232f3e8ac8309fe8d201b98f7f53",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj5B8XCRBK7hj4Ov3rIwAAXYcIAB5VftroU3Xy5dOZQeSpO/4v\n1VXVR/6jiIYlQ0w3vIlSGAOlZigum//Kgx7Rl5hWnlmAD0SkhOU7dUWIGnUAkMki\nu004MDez9m4LIb6GYk/57dg96OwPk3xMkv1LojdzKdtzBrN2yEAnrOd/FYcMZT21\n0IPhxIW3trhtvX2GHWfgCGeJkBRohnxgifsY9ht3gcGNhF32RFY8grVOLZv66Fha\nWpBey6+/3sy5x9fugNEwVd12YnQ6s8xZjZtqBJnMwJr85z1sGGqfmXGCJ28/mJRp\ncGSiMoTt/ToGzk4c5b42/5e8MCK5iox3sd9/2ayakWhjqgsZLBL8I9tlXovz/+M=\n=XBAz\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e2a66131e4bbf0c9adc755a5e48cfc2db3933f36\nparent 2d737a100f7aa5059d162dc618f6c67fe7c4157c\nauthor isabelle-dr <isabelle@mobilitydata.org> 1675894551 -0500\ncommitter GitHub <noreply@github.com> 1675894551 -0500\n\nUpdate reference.md (#368)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/c847cef155fc232f3e8ac8309fe8d201b98f7f53",
+    "html_url": "https://github.com/google/transit/commit/c847cef155fc232f3e8ac8309fe8d201b98f7f53",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/c847cef155fc232f3e8ac8309fe8d201b98f7f53/comments",
+    "author": {
+      "login": "isabelle-dr",
+      "id": 63653518,
+      "node_id": "MDQ6VXNlcjYzNjUzNTE4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63653518?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/isabelle-dr",
+      "html_url": "https://github.com/isabelle-dr",
+      "followers_url": "https://api.github.com/users/isabelle-dr/followers",
+      "following_url": "https://api.github.com/users/isabelle-dr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isabelle-dr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isabelle-dr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isabelle-dr/subscriptions",
+      "organizations_url": "https://api.github.com/users/isabelle-dr/orgs",
+      "repos_url": "https://api.github.com/users/isabelle-dr/repos",
+      "events_url": "https://api.github.com/users/isabelle-dr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isabelle-dr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2d737a100f7aa5059d162dc618f6c67fe7c4157c",
+        "url": "https://api.github.com/repos/google/transit/commits/2d737a100f7aa5059d162dc618f6c67fe7c4157c",
+        "html_url": "https://github.com/google/transit/commit/2d737a100f7aa5059d162dc618f6c67fe7c4157c"
+      }
+    ]
+  },
+  {
+    "sha": "f62ca848efa843fdf1e6f9856aaff50627c3ed69",
+    "node_id": "C_kwDOAlVrjdoAKGY2MmNhODQ4ZWZhODQzZmRmMWU2Zjk4NTZhYWZmNTA2MjdjM2VkNjk",
+    "commit": {
+      "author": {
+        "name": "Brian Ferris",
+        "email": "bdferris+v2@google.com",
+        "date": "2022-12-08T18:47:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-12-08T18:47:12Z"
+      },
+      "message": "Revert change that made `fare_rules.txt` conditionally required. (#359)\n\nWhen the initial Fares v2 base implementation was added to the official spec (#286), it also included some changes for Fares v1. Specifically, `fare_rules.txt` was now marked as conditionally required if `fare_attributes.txt` is present. I believe this change was a mistake and should be reverted.",
+      "tree": {
+        "sha": "f006f9a4fa58e53652c108bb93b94a4bf9df8815",
+        "url": "https://api.github.com/repos/google/transit/git/trees/f006f9a4fa58e53652c108bb93b94a4bf9df8815"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/f62ca848efa843fdf1e6f9856aaff50627c3ed69",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjkjEwCRBK7hj4Ov3rIwAAEtAIALAyc0qJr2fjVnSBT90f0ffY\nuPuLgcHjb5CdZGPStZSbwkZkkOSh4ucS+tfdkmdzR9D2SqsqGjeaBsoPnzhks00O\n3hEwKtbilWOZmMw277kVSTpvwRSp8eyllXC8ar+QsYItI1NOuHTi8xVJ3B12IzfZ\neJ7ClxpqbNmoMsNOMzMvqC/XY249fddmxXpL3/+mn8Cwlx/Ea8fvFZBDRMOgmt8M\nU3amDqYUosK+chpTndDXgTJvPlGJBLKJ0UW0O+2uySY/HbncXSYG/sJno8/rrcuF\n2hog9I0VIw+64M8cBodmMUtl+/ZF9/vUaRgUB1TSPKUTLjqq1rq5W6mo/FjHaQk=\n=oV8I\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f006f9a4fa58e53652c108bb93b94a4bf9df8815\nparent 6fcc3800b15954227af7335d571791738afb1a67\nauthor Brian Ferris <bdferris+v2@google.com> 1670525232 -0800\ncommitter GitHub <noreply@github.com> 1670525232 -0800\n\nRevert change that made `fare_rules.txt` conditionally required. (#359)\n\nWhen the initial Fares v2 base implementation was added to the official spec (#286), it also included some changes for Fares v1. Specifically, `fare_rules.txt` was now marked as conditionally required if `fare_attributes.txt` is present. I believe this change was a mistake and should be reverted.\r\n"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/f62ca848efa843fdf1e6f9856aaff50627c3ed69",
+    "html_url": "https://github.com/google/transit/commit/f62ca848efa843fdf1e6f9856aaff50627c3ed69",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/f62ca848efa843fdf1e6f9856aaff50627c3ed69/comments",
+    "author": {
+      "login": "bdferris-v2",
+      "id": 26211219,
+      "node_id": "MDQ6VXNlcjI2MjExMjE5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26211219?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bdferris-v2",
+      "html_url": "https://github.com/bdferris-v2",
+      "followers_url": "https://api.github.com/users/bdferris-v2/followers",
+      "following_url": "https://api.github.com/users/bdferris-v2/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdferris-v2/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bdferris-v2/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdferris-v2/subscriptions",
+      "organizations_url": "https://api.github.com/users/bdferris-v2/orgs",
+      "repos_url": "https://api.github.com/users/bdferris-v2/repos",
+      "events_url": "https://api.github.com/users/bdferris-v2/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bdferris-v2/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6fcc3800b15954227af7335d571791738afb1a67",
+        "url": "https://api.github.com/repos/google/transit/commits/6fcc3800b15954227af7335d571791738afb1a67",
+        "html_url": "https://github.com/google/transit/commit/6fcc3800b15954227af7335d571791738afb1a67"
+      }
+    ]
+  },
+  {
+    "sha": "d9252bff827348d5630626c7d28ac9379cf938fe",
+    "node_id": "C_kwDOAlVrjdoAKGQ5MjUyYmZmODI3MzQ4ZDU2MzA2MjZjN2QyOGFjOTM3OWNmOTM4ZmU",
+    "commit": {
+      "author": {
+        "name": "isabelle-dr",
+        "email": "isabelle@mobilitydata.org",
+        "date": "2022-11-29T18:01:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-29T18:01:46Z"
+      },
+      "message": "Fix: broken link in fare_rules.txt (#361)\n\n* Fix link in fare_rules.txt\r\n\r\n* empty commit\r\n\r\n* Revert \"empty commit\"\r\n\r\nThis reverts commit 005c7aa45ca00cad423ca82654df1c0a746578e6.\r\n\r\n* Revert \"Fix link in fare_rules.txt\"\r\n\r\nThis reverts commit 1ca5d6f65b430c6698e0e7955f8f7c1a7086c5ee.\r\n\r\n* replace broken link",
+      "tree": {
+        "sha": "0705f0347f231fd651aca1c52efece9402e8ccbe",
+        "url": "https://api.github.com/repos/google/transit/git/trees/0705f0347f231fd651aca1c52efece9402e8ccbe"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/d9252bff827348d5630626c7d28ac9379cf938fe",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjhkkKCRBK7hj4Ov3rIwAApYgIAIn3DOrETx7AMIP1d8gPOFO0\nTejrbh2WNVbcLfQVehOj2wpo6+nm74dts4ccZyQKUgxStniYjtnqX48/L+OKSHlj\nD5YPN1Mgq9p6Q7K2W+tJAE5D3y1m0n0q7wiRdmvygF5yWxiV+zJe29QrJbpicXUU\nixcba0N4l9We90qsRGabfXpMQwRksC8cczQiYAXp1iccWmTwaAmEquhZATEI7ooS\nhe4QHcTXs3gCPZUnXFe3PENzyIPen38OF/ybJFFCcGiftToO4KuRYKT+CUe9SyMz\niReRCyrttvNU5i/5+8XeFd4Vx1GT6Bv4WOwgb/EdPXgV9sKjMJL8W9kBdgqVP9s=\n=nkw+\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0705f0347f231fd651aca1c52efece9402e8ccbe\nparent 9d5ebf1277f83178ba041de208f200d2d00cf5e7\nauthor isabelle-dr <isabelle@mobilitydata.org> 1669744906 -0500\ncommitter GitHub <noreply@github.com> 1669744906 -0500\n\nFix: broken link in fare_rules.txt (#361)\n\n* Fix link in fare_rules.txt\r\n\r\n* empty commit\r\n\r\n* Revert \"empty commit\"\r\n\r\nThis reverts commit 005c7aa45ca00cad423ca82654df1c0a746578e6.\r\n\r\n* Revert \"Fix link in fare_rules.txt\"\r\n\r\nThis reverts commit 1ca5d6f65b430c6698e0e7955f8f7c1a7086c5ee.\r\n\r\n* replace broken link"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/d9252bff827348d5630626c7d28ac9379cf938fe",
+    "html_url": "https://github.com/google/transit/commit/d9252bff827348d5630626c7d28ac9379cf938fe",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/d9252bff827348d5630626c7d28ac9379cf938fe/comments",
+    "author": {
+      "login": "isabelle-dr",
+      "id": 63653518,
+      "node_id": "MDQ6VXNlcjYzNjUzNTE4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63653518?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/isabelle-dr",
+      "html_url": "https://github.com/isabelle-dr",
+      "followers_url": "https://api.github.com/users/isabelle-dr/followers",
+      "following_url": "https://api.github.com/users/isabelle-dr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isabelle-dr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isabelle-dr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isabelle-dr/subscriptions",
+      "organizations_url": "https://api.github.com/users/isabelle-dr/orgs",
+      "repos_url": "https://api.github.com/users/isabelle-dr/repos",
+      "events_url": "https://api.github.com/users/isabelle-dr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isabelle-dr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9d5ebf1277f83178ba041de208f200d2d00cf5e7",
+        "url": "https://api.github.com/repos/google/transit/commits/9d5ebf1277f83178ba041de208f200d2d00cf5e7",
+        "html_url": "https://github.com/google/transit/commit/9d5ebf1277f83178ba041de208f200d2d00cf5e7"
+      }
+    ]
+  },
+  {
+    "sha": "9d5ebf1277f83178ba041de208f200d2d00cf5e7",
+    "node_id": "C_kwDOAlVrjdoAKDlkNWViZjEyNzdmODMxNzhiYTA0MWRlMjA4ZjIwMGQyZDAwY2Y1ZTc",
+    "commit": {
+      "author": {
+        "name": "Guillaume Campagna",
+        "email": "guillaume.campagna@gmail.com",
+        "date": "2022-07-26T21:09:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-26T21:09:35Z"
+      },
+      "message": "Add trip-to-trip transfers with in-seat option (#303)\n\n* Add trip-to-trip transfers with in-seat option\r\n\r\n* Fix stop_id are **Conditionally Required** and formatting\r\n\r\n* Add clarification about potential conflict\r\n\r\n* Fix typo\r\n\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>\r\n\r\nCo-authored-by: Nicholas Paun <np@icebergsystems.ca>\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>",
+      "tree": {
+        "sha": "76136a841d9ee23bf81e994b113578e480444c4a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/76136a841d9ee23bf81e994b113578e480444c4a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/9d5ebf1277f83178ba041de208f200d2d00cf5e7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi4FgPCRBK7hj4Ov3rIwAAIIwIAKxMw40pqlWZ98ZLGnXjTFK4\nMRtKeHiUMl+sVLyq1S7iZ13NsRih6DWNIcvdHRrnhm3JQFsCVo+Ukim7wqbFuV78\n2wZ0a6zLoMRnLaCK09U0xrLX+0bK/20fkCZMqANH7YocWqTqy8Sc044w/7Vw8OSW\n6yuozi26ZQG7vtqjh8kw7cYAZ/vv2fT5rnuYKXMhcGfybWKNYXmUMAgzT2tL6+dG\nBB5xGIV2TOEL9pLXPOveJW88n5L3PWonkaJepW+rG1oCka2gMSBxf1skJ8ItavoF\n226+YVPEDewH9a9Bh87YTwTPbJNJM/5CDjN4H/d6KTtWd1nldEVbYVRZDkiEjrw=\n=VJGQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 76136a841d9ee23bf81e994b113578e480444c4a\nparent a1327095811f6c388f5ea48272805a73e4ae4c5c\nauthor Guillaume Campagna <guillaume.campagna@gmail.com> 1658869775 -0400\ncommitter GitHub <noreply@github.com> 1658869775 -0400\n\nAdd trip-to-trip transfers with in-seat option (#303)\n\n* Add trip-to-trip transfers with in-seat option\r\n\r\n* Fix stop_id are **Conditionally Required** and formatting\r\n\r\n* Add clarification about potential conflict\r\n\r\n* Fix typo\r\n\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>\r\n\r\nCo-authored-by: Nicholas Paun <np@icebergsystems.ca>\r\nCo-authored-by: Leonard Ehrenfried <mail@leonard.io>"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/9d5ebf1277f83178ba041de208f200d2d00cf5e7",
+    "html_url": "https://github.com/google/transit/commit/9d5ebf1277f83178ba041de208f200d2d00cf5e7",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/9d5ebf1277f83178ba041de208f200d2d00cf5e7/comments",
+    "author": {
+      "login": "gcamp",
+      "id": 129745,
+      "node_id": "MDQ6VXNlcjEyOTc0NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129745?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gcamp",
+      "html_url": "https://github.com/gcamp",
+      "followers_url": "https://api.github.com/users/gcamp/followers",
+      "following_url": "https://api.github.com/users/gcamp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gcamp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gcamp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gcamp/subscriptions",
+      "organizations_url": "https://api.github.com/users/gcamp/orgs",
+      "repos_url": "https://api.github.com/users/gcamp/repos",
+      "events_url": "https://api.github.com/users/gcamp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gcamp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a1327095811f6c388f5ea48272805a73e4ae4c5c",
+        "url": "https://api.github.com/repos/google/transit/commits/a1327095811f6c388f5ea48272805a73e4ae4c5c",
+        "html_url": "https://github.com/google/transit/commit/a1327095811f6c388f5ea48272805a73e4ae4c5c"
+      }
+    ]
+  },
+  {
+    "sha": "55760400b3c82a14f88ce01e5678d7cfa0715fb3",
+    "node_id": "C_kwDOAlVrjdoAKDU1NzYwNDAwYjNjODJhMTRmODhjZTAxZTU2NzhkN2NmYTA3MTVmYjM",
+    "commit": {
+      "author": {
+        "name": "Tim Millet",
+        "email": "timothee.millet@gmail.com",
+        "date": "2022-06-02T23:31:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-06-02T23:31:05Z"
+      },
+      "message": "Change primary keys of translations.txt (#326)",
+      "tree": {
+        "sha": "944250f9a381a670793ba216922304327422dd81",
+        "url": "https://api.github.com/repos/google/transit/git/trees/944250f9a381a670793ba216922304327422dd81"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/55760400b3c82a14f88ce01e5678d7cfa0715fb3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJimUg5CRBK7hj4Ov3rIwAAenIIALArUcu7NliXERjAlvLKAWRE\nNu6Lpl63p6ISh0Y3vdj9zvYu3EBUGVPVdUkbPLwiNW1B3blLiCRDPWYCljUYsPG4\nCnQjaGMwlHtqJrWeWV2mtcQYECai2yGv5mUUtOgETv0xoMHJRQTkjxeiLVZossas\nfXj7MQEl+wXgZk6AwOtsb0i1RSdKOGXk6felZAOCecjAKmX+12aLeOwibcUD0vOS\nVeZtUMHCwD0m4AUQfrVyLkDO6NnEr/RjJAeZbdKilw/ysqSdBLpvr9tOOTupvljD\nKMP2zF+iDRtlvVDXnpU7/ySMzYk+irruL7uk3evwW5xUa3TtqEpDJrLQ+fvDwtM=\n=y23Q\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 944250f9a381a670793ba216922304327422dd81\nparent e00cc3c45ce929ff75a0afe20dfac0ce5092248c\nauthor Tim Millet <timothee.millet@gmail.com> 1654212665 -0400\ncommitter GitHub <noreply@github.com> 1654212665 -0300\n\nChange primary keys of translations.txt (#326)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/55760400b3c82a14f88ce01e5678d7cfa0715fb3",
+    "html_url": "https://github.com/google/transit/commit/55760400b3c82a14f88ce01e5678d7cfa0715fb3",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/55760400b3c82a14f88ce01e5678d7cfa0715fb3/comments",
+    "author": {
+      "login": "timMillet",
+      "id": 29546082,
+      "node_id": "MDQ6VXNlcjI5NTQ2MDgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29546082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timMillet",
+      "html_url": "https://github.com/timMillet",
+      "followers_url": "https://api.github.com/users/timMillet/followers",
+      "following_url": "https://api.github.com/users/timMillet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timMillet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timMillet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timMillet/subscriptions",
+      "organizations_url": "https://api.github.com/users/timMillet/orgs",
+      "repos_url": "https://api.github.com/users/timMillet/repos",
+      "events_url": "https://api.github.com/users/timMillet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timMillet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e00cc3c45ce929ff75a0afe20dfac0ce5092248c",
+        "url": "https://api.github.com/repos/google/transit/commits/e00cc3c45ce929ff75a0afe20dfac0ce5092248c",
+        "html_url": "https://github.com/google/transit/commit/e00cc3c45ce929ff75a0afe20dfac0ce5092248c"
+      }
+    ]
+  },
+  {
+    "sha": "e00cc3c45ce929ff75a0afe20dfac0ce5092248c",
+    "node_id": "C_kwDOAlVrjdoAKGUwMGNjM2M0NWNlOTI5ZmY3NWEwYWZlMjBkZmFjMGNlNTA5MjI0OGM",
+    "commit": {
+      "author": {
+        "name": "Tim Millet",
+        "email": "timothee.millet@gmail.com",
+        "date": "2022-06-02T23:30:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-06-02T23:30:42Z"
+      },
+      "message": "Add translation precedence (#327)",
+      "tree": {
+        "sha": "2b7fcf4465ed7eb80df51a86196fb29ba7fe01c9",
+        "url": "https://api.github.com/repos/google/transit/git/trees/2b7fcf4465ed7eb80df51a86196fb29ba7fe01c9"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/e00cc3c45ce929ff75a0afe20dfac0ce5092248c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJimUgiCRBK7hj4Ov3rIwAA1MIIABtG6lwomTIxWENYufm8w506\nXQa4I+gI2LI0q/Pdwz9dwa5yXNY7LihBWE2J9V7L1Q2/qEFjpKQlrOnFZTE4HCJi\n3xrxf5rii1a98NRX5fSWy9iY0NJJWwtrswwog30B+OT6U/vf6l2ANbDJA4/BrTVH\n34LE4wPBmz12te8vLTIyb7e4i9l/3k6Lqz+Y+u2IFhsCUxz7VVA1OudbSfq33d8Z\n4nBtUhjMzzM0bcnIJA0ruFIWEhoFRP4Apaff0WBg912nrOJyGrhdBJnKkRblMqd5\n3qfbwAWCixeu59eVyAD62AAzaEiCQeeKcV0iE9aEgDKa4OJ/sTmcLX4EJOojpMA=\n=YteX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2b7fcf4465ed7eb80df51a86196fb29ba7fe01c9\nparent 322f3285e4f56b08549c1eb925a8898e0cc4efce\nauthor Tim Millet <timothee.millet@gmail.com> 1654212642 -0400\ncommitter GitHub <noreply@github.com> 1654212642 -0300\n\nAdd translation precedence (#327)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/e00cc3c45ce929ff75a0afe20dfac0ce5092248c",
+    "html_url": "https://github.com/google/transit/commit/e00cc3c45ce929ff75a0afe20dfac0ce5092248c",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/e00cc3c45ce929ff75a0afe20dfac0ce5092248c/comments",
+    "author": {
+      "login": "timMillet",
+      "id": 29546082,
+      "node_id": "MDQ6VXNlcjI5NTQ2MDgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29546082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timMillet",
+      "html_url": "https://github.com/timMillet",
+      "followers_url": "https://api.github.com/users/timMillet/followers",
+      "following_url": "https://api.github.com/users/timMillet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timMillet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timMillet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timMillet/subscriptions",
+      "organizations_url": "https://api.github.com/users/timMillet/orgs",
+      "repos_url": "https://api.github.com/users/timMillet/repos",
+      "events_url": "https://api.github.com/users/timMillet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timMillet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "322f3285e4f56b08549c1eb925a8898e0cc4efce",
+        "url": "https://api.github.com/repos/google/transit/commits/322f3285e4f56b08549c1eb925a8898e0cc4efce",
+        "html_url": "https://github.com/google/transit/commit/322f3285e4f56b08549c1eb925a8898e0cc4efce"
+      }
+    ]
+  },
+  {
+    "sha": "e103ad6a9df1c67e536e2261f46ef7501a5cb1d4",
+    "node_id": "C_kwDOAlVrjdoAKGUxMDNhZDZhOWRmMWM2N2U1MzZlMjI2MWY0NmVmNzUwMWE1Y2IxZDQ",
+    "commit": {
+      "author": {
+        "name": "scott christian mccallum",
+        "email": "scott@mobilitydata.org",
+        "date": "2022-05-17T13:55:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-05-17T13:55:20Z"
+      },
+      "message": "GTFS-Fares v2 base implementation (#286)\n\n* fare_leg_rules.txt\r\n\r\n* route networks\r\n\r\n* areas\r\n\r\n* fare_transfer_rules.txt\r\n\r\n* patch links\r\n\r\n* specify areas.area_id as unique\r\n\r\n* allow v1 and v2 to coexist\r\n\r\n* note on negative transfer amount\r\n\r\n* add details to areas.txt\r\n\r\n* Add relations between v1 and v2\r\n\r\n* Patch presence requirements for v1\r\n\r\n* Add term defintions\r\n\r\n* Clarify fare_transfer_type\r\n\r\n* Require amount and currency in fare_leg_rules.txt\r\n\r\n* Simplify \"leg\" definition\r\n\r\n* patch fare_transfer_type=1 description\r\n\r\n* patch fare_transfer_rules.amount and .currency\r\n\r\n* patch fare_transfer_type and interactions\r\n\r\nnote: replace pngs with local svgs on final draft\r\n\r\n* remove \"Sub-journey\" from Term Definitions\r\n\r\nSince updating `fare_transfer_type`, no more mention of the term \"sub-journey\" in the proposal.\r\n\r\n* unduplicate V1/V2 note\r\n\r\n* update file link styles\r\n\r\n* add primary keys\r\n\r\n* update fare_transfer_type\r\n\r\n* fix fare_transfer_rules.currency formatting\r\n\r\n* Add \"versions\" heading for fares\r\n\r\n* fare_transfer_type svg figures\r\n\r\n* html support for svg\r\n\r\n* revert to temporary png until final merge\r\n\r\nif passed: replace image paths to examples/\"\".svg\r\n\r\n* spelling fix\r\n\r\n* ID referencing conventions\r\n\r\n* Update reference.md\r\n\r\nRemoved stops.area_id\r\nAdded stop_areas.txt\r\nAdded areas.area_name\r\n\r\n* Remove is_symmetrical\r\n\r\nRemove fare_leg_rules.is_symmetrical and fare_transfer_rules.is_symmetrical\r\n\r\n* Improve fare_transfer_rules.txt\r\n\r\nMake fare_transfer_rules.fare_transfer_type required\r\nAdd wording in the header of fare_transfer_rules.txt\r\n\r\n* Update table of contents\r\n\r\nAdd stop_areas.txt\r\n\r\n* Modify fare_transfer_type\r\n\r\nRemove enum=2 \"The leg with the most expensive fare_leg_rules.amount plus fare_transfer_rules.amount; MAX(A, B) + AB.\"\r\n\r\n* Replace spanning_limit with transfer_count\r\n\r\n* Update reference.md\r\n\r\nAdded fare_products.txt and replaced amount/currency with fare_product_id in fare_leg_rules.txt and fare_transfer_rules.txt\r\n\r\n* Update table of contents\r\n\r\n* Update fare_transfer_rules\r\n\r\nUpdate fare_transfer_type to replace amount with fare_product_id\r\n\r\n* Add Primary Keys to fare_leg_rules.txt and fare_transfer_rules.txt\r\n\r\n* Made editorial changes\r\n\r\nFixed table of contents links\r\nAdded new files in the dataset files table\r\n\r\n* Clarify wording in header for fare_leg_rules.txt\r\n\r\nEditorial change\r\n\r\n* Update presence of transfer_count\r\n\r\nChanged from non-negative integer to positive integer\r\n\r\n* Change presence of duration_limit\r\n\r\nFrom non-negative integer to positive integer\r\n\r\n* Update duration_limit_type\r\n\r\nClarify wording (change first leg and last leg to current leg and next leg)\r\n\r\n* Update fare_products.txt\r\n\r\nChanged the presence of fare_products.amount and fare_products.currency\r\n\r\n* Update header for fare_leg_rules.txt\r\n\r\n* Update header for fare_transfer_rules.txt\r\n\r\n* Update definitions in fare_leg_rules.txt\r\n\r\nClarify how empty entries work for network_id, from_area_id, and to_area_id\r\n\r\n* Improve formatting\r\n\r\n* Update definitions in fare_transfer_rules.txt\r\n\r\nClarify how empty entries work for from_leg_group_id and to_leg_group_id\r\n\r\n* Update fare_transfer_rules.transfer_count\r\n\r\nChange type and field definition\r\n\r\n* Change type of fare_products.fare_product_id\r\n\r\nFrom `Unique ID` to `ID`\r\n\r\n* Fix formatting\r\n\r\n* Update term definitions table\r\n\r\nAdd sub-journey and fare product\r\n\r\n* Clarify difference between V1 and V2\r\n\r\n* Fix formatting\r\n\r\n* Fix formatting\r\n\r\n* Change presence of fare_leg_rules.fare_product_id\r\n\r\n* Update revision date\r\n\r\n* update links to svg\r\n\r\n* fix file header format\r\n\r\nCo-authored-by: omar-kabbani <78552622+omar-kabbani@users.noreply.github.com>",
+      "tree": {
+        "sha": "18c052851c7239fccacd01618c82df07b2efb2d0",
+        "url": "https://api.github.com/repos/google/transit/git/trees/18c052851c7239fccacd01618c82df07b2efb2d0"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/e103ad6a9df1c67e536e2261f46ef7501a5cb1d4",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJig6lICRBK7hj4Ov3rIwAAgc4IAEtw5pC+2F4IxI6pCJhKv4mQ\nVr6q0M6h5Iiy+K2tq/6MTXXuu/6pKRZUvtVjR7m3yf+ZtO9YszouPPabpqSOpHSr\nkELE6RD/Tuv2JuSc5w5jqiMd9hBOsnE8/dzML/0jyGlZpzyanWoVoeDGHEvfhk34\n0hrw/W/fVRsmtZCsvGtI8xDmw2b/YppXcvXnYtOyad0sf8HrP6WR9jsk14b4E0z8\nv6yVuc5TGbzobpZsgFSvTYKKFh0ZIYQ7T67dw1obT98g+w+UTkNc/0+fsRNvK28s\ni1OHBZsTDFhl5YrEHd/LDovfdrw9DMB6Y4CGxyXG7mPtKrzBR5FbWr+KgMPrnUI=\n=wroS\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 18c052851c7239fccacd01618c82df07b2efb2d0\nparent 6b7a2e818a205a9702d5061291281b01b4da7f99\nauthor scott christian mccallum <scott@mobilitydata.org> 1652795720 -0400\ncommitter GitHub <noreply@github.com> 1652795720 -0400\n\nGTFS-Fares v2 base implementation (#286)\n\n* fare_leg_rules.txt\r\n\r\n* route networks\r\n\r\n* areas\r\n\r\n* fare_transfer_rules.txt\r\n\r\n* patch links\r\n\r\n* specify areas.area_id as unique\r\n\r\n* allow v1 and v2 to coexist\r\n\r\n* note on negative transfer amount\r\n\r\n* add details to areas.txt\r\n\r\n* Add relations between v1 and v2\r\n\r\n* Patch presence requirements for v1\r\n\r\n* Add term defintions\r\n\r\n* Clarify fare_transfer_type\r\n\r\n* Require amount and currency in fare_leg_rules.txt\r\n\r\n* Simplify \"leg\" definition\r\n\r\n* patch fare_transfer_type=1 description\r\n\r\n* patch fare_transfer_rules.amount and .currency\r\n\r\n* patch fare_transfer_type and interactions\r\n\r\nnote: replace pngs with local svgs on final draft\r\n\r\n* remove \"Sub-journey\" from Term Definitions\r\n\r\nSince updating `fare_transfer_type`, no more mention of the term \"sub-journey\" in the proposal.\r\n\r\n* unduplicate V1/V2 note\r\n\r\n* update file link styles\r\n\r\n* add primary keys\r\n\r\n* update fare_transfer_type\r\n\r\n* fix fare_transfer_rules.currency formatting\r\n\r\n* Add \"versions\" heading for fares\r\n\r\n* fare_transfer_type svg figures\r\n\r\n* html support for svg\r\n\r\n* revert to temporary png until final merge\r\n\r\nif passed: replace image paths to examples/\"\".svg\r\n\r\n* spelling fix\r\n\r\n* ID referencing conventions\r\n\r\n* Update reference.md\r\n\r\nRemoved stops.area_id\r\nAdded stop_areas.txt\r\nAdded areas.area_name\r\n\r\n* Remove is_symmetrical\r\n\r\nRemove fare_leg_rules.is_symmetrical and fare_transfer_rules.is_symmetrical\r\n\r\n* Improve fare_transfer_rules.txt\r\n\r\nMake fare_transfer_rules.fare_transfer_type required\r\nAdd wording in the header of fare_transfer_rules.txt\r\n\r\n* Update table of contents\r\n\r\nAdd stop_areas.txt\r\n\r\n* Modify fare_transfer_type\r\n\r\nRemove enum=2 \"The leg with the most expensive fare_leg_rules.amount plus fare_transfer_rules.amount; MAX(A, B) + AB.\"\r\n\r\n* Replace spanning_limit with transfer_count\r\n\r\n* Update reference.md\r\n\r\nAdded fare_products.txt and replaced amount/currency with fare_product_id in fare_leg_rules.txt and fare_transfer_rules.txt\r\n\r\n* Update table of contents\r\n\r\n* Update fare_transfer_rules\r\n\r\nUpdate fare_transfer_type to replace amount with fare_product_id\r\n\r\n* Add Primary Keys to fare_leg_rules.txt and fare_transfer_rules.txt\r\n\r\n* Made editorial changes\r\n\r\nFixed table of contents links\r\nAdded new files in the dataset files table\r\n\r\n* Clarify wording in header for fare_leg_rules.txt\r\n\r\nEditorial change\r\n\r\n* Update presence of transfer_count\r\n\r\nChanged from non-negative integer to positive integer\r\n\r\n* Change presence of duration_limit\r\n\r\nFrom non-negative integer to positive integer\r\n\r\n* Update duration_limit_type\r\n\r\nClarify wording (change first leg and last leg to current leg and next leg)\r\n\r\n* Update fare_products.txt\r\n\r\nChanged the presence of fare_products.amount and fare_products.currency\r\n\r\n* Update header for fare_leg_rules.txt\r\n\r\n* Update header for fare_transfer_rules.txt\r\n\r\n* Update definitions in fare_leg_rules.txt\r\n\r\nClarify how empty entries work for network_id, from_area_id, and to_area_id\r\n\r\n* Improve formatting\r\n\r\n* Update definitions in fare_transfer_rules.txt\r\n\r\nClarify how empty entries work for from_leg_group_id and to_leg_group_id\r\n\r\n* Update fare_transfer_rules.transfer_count\r\n\r\nChange type and field definition\r\n\r\n* Change type of fare_products.fare_product_id\r\n\r\nFrom `Unique ID` to `ID`\r\n\r\n* Fix formatting\r\n\r\n* Update term definitions table\r\n\r\nAdd sub-journey and fare product\r\n\r\n* Clarify difference between V1 and V2\r\n\r\n* Fix formatting\r\n\r\n* Fix formatting\r\n\r\n* Change presence of fare_leg_rules.fare_product_id\r\n\r\n* Update revision date\r\n\r\n* update links to svg\r\n\r\n* fix file header format\r\n\r\nCo-authored-by: omar-kabbani <78552622+omar-kabbani@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/e103ad6a9df1c67e536e2261f46ef7501a5cb1d4",
+    "html_url": "https://github.com/google/transit/commit/e103ad6a9df1c67e536e2261f46ef7501a5cb1d4",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/e103ad6a9df1c67e536e2261f46ef7501a5cb1d4/comments",
+    "author": null,
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6b7a2e818a205a9702d5061291281b01b4da7f99",
+        "url": "https://api.github.com/repos/google/transit/commits/6b7a2e818a205a9702d5061291281b01b4da7f99",
+        "html_url": "https://github.com/google/transit/commit/6b7a2e818a205a9702d5061291281b01b4da7f99"
+      }
+    ]
+  },
+  {
+    "sha": "2e6887ea16b689d8ebc70ad334ac8abb2f94a66e",
+    "node_id": "C_kwDOAlVrjdoAKDJlNjg4N2VhMTZiNjg5ZDhlYmM3MGFkMzM0YWM4YWJiMmY5NGE2NmU",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2022-02-02T17:42:10Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2022-02-02T17:42:10Z"
+      },
+      "message": "[Formatting fix] Add newlines before lists\n\nImproved syntax for different markdown parsers",
+      "tree": {
+        "sha": "6595931ed2fdde0ded1149d1138e56ac0eaf9a8a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/6595931ed2fdde0ded1149d1138e56ac0eaf9a8a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/2e6887ea16b689d8ebc70ad334ac8abb2f94a66e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/2e6887ea16b689d8ebc70ad334ac8abb2f94a66e",
+    "html_url": "https://github.com/google/transit/commit/2e6887ea16b689d8ebc70ad334ac8abb2f94a66e",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/2e6887ea16b689d8ebc70ad334ac8abb2f94a66e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "00335731dc2893681d8b8611533bdfe7045f386b",
+        "url": "https://api.github.com/repos/google/transit/commits/00335731dc2893681d8b8611533bdfe7045f386b",
+        "html_url": "https://github.com/google/transit/commit/00335731dc2893681d8b8611533bdfe7045f386b"
+      }
+    ]
+  },
+  {
+    "sha": "00335731dc2893681d8b8611533bdfe7045f386b",
+    "node_id": "C_kwDOAlVrjdoAKDAwMzM1NzMxZGMyODkzNjgxZDhiODYxMTUzM2JkZmU3MDQ1ZjM4NmI",
+    "commit": {
+      "author": {
+        "name": "Tristram Gräbener",
+        "email": "tristramg@gmail.com",
+        "date": "2022-01-28T14:54:00Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-01-28T14:54:00Z"
+      },
+      "message": "Specify that the filename are case sensitive (#300)\n\nCloses #297",
+      "tree": {
+        "sha": "c32fbcdc9a272712638b2ef1e79a3224ee7027a0",
+        "url": "https://api.github.com/repos/google/transit/git/trees/c32fbcdc9a272712638b2ef1e79a3224ee7027a0"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/00335731dc2893681d8b8611533bdfe7045f386b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJh9AOICRBK7hj4Ov3rIwAArygIAGAo5KFlPzPjq6rD6u+z/pvI\nD17GC5H+QHzqWDgEApoHbOXfkoB2IQ9orftzFDEfrCTQiF4r7pljpVHSRP5Es6Xa\nbWWNaPqgOd2kpiicvTf5A5T6VdWVsmU5NDaKC7YdKf5u+6IZYlce+U0LxOFeYFmh\nRaZXz6SBXIbXHoaz3/8RnPUDFivofYkT/z8lrcda3/DtApvpvVWlX4sqiLAwT20S\nLeprYYLcW9Iq24ZI6VVcFdstMpfDrkM5DD9clY5ObcqIwtN+hPdo/P7GraP2g+2L\nOVh61SN/loWV/kgusLd0vQYTZbM07GyCTIAXW2WwFBpvr2DJA2ZhL7h+gOJBFrs=\n=kcw1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c32fbcdc9a272712638b2ef1e79a3224ee7027a0\nparent 23d877e5bc6a7f7d8721d32b792a0fc8ddd6c4c0\nauthor Tristram Gräbener <tristramg@gmail.com> 1643381640 +0100\ncommitter GitHub <noreply@github.com> 1643381640 -0500\n\nSpecify that the filename are case sensitive (#300)\n\nCloses #297"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/00335731dc2893681d8b8611533bdfe7045f386b",
+    "html_url": "https://github.com/google/transit/commit/00335731dc2893681d8b8611533bdfe7045f386b",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/00335731dc2893681d8b8611533bdfe7045f386b/comments",
+    "author": {
+      "login": "Tristramg",
+      "id": 12235,
+      "node_id": "MDQ6VXNlcjEyMjM1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12235?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Tristramg",
+      "html_url": "https://github.com/Tristramg",
+      "followers_url": "https://api.github.com/users/Tristramg/followers",
+      "following_url": "https://api.github.com/users/Tristramg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Tristramg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Tristramg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Tristramg/subscriptions",
+      "organizations_url": "https://api.github.com/users/Tristramg/orgs",
+      "repos_url": "https://api.github.com/users/Tristramg/repos",
+      "events_url": "https://api.github.com/users/Tristramg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Tristramg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "23d877e5bc6a7f7d8721d32b792a0fc8ddd6c4c0",
+        "url": "https://api.github.com/repos/google/transit/commits/23d877e5bc6a7f7d8721d32b792a0fc8ddd6c4c0",
+        "html_url": "https://github.com/google/transit/commit/23d877e5bc6a7f7d8721d32b792a0fc8ddd6c4c0"
+      }
+    ]
+  },
+  {
+    "sha": "b3ea73fd7a988dc12291bdb0f76b3abeaad55cec",
+    "node_id": "C_kwDOAlVrjdoAKGIzZWE3M2ZkN2E5ODhkYzEyMjkxYmRiMGY3NmIzYWJlYWFkNTVjZWM",
+    "commit": {
+      "author": {
+        "name": "Joey Reid",
+        "email": "botanize@users.noreply.github.com",
+        "date": "2021-10-22T14:37:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-10-22T14:37:42Z"
+      },
+      "message": "Add Primary and Foreign ID fields (#278)\n\n* Add Primary and Foreign ID fields\r\n\r\n* Improve ID field definitions\r\n\r\n* Fix incorrect and add missing Primary IDs\r\n\r\n* Split key from ID\r\n\r\n* Fix capitalization\r\n\r\n* Update key and ids for transfers.txt",
+      "tree": {
+        "sha": "fa811d26f228d48eee4becf739d974e3d4e0ab51",
+        "url": "https://api.github.com/repos/google/transit/git/trees/fa811d26f228d48eee4becf739d974e3d4e0ab51"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/b3ea73fd7a988dc12291bdb0f76b3abeaad55cec",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhcsy2CRBK7hj4Ov3rIwAAmnsIAIYPiETWtfdvknWuT4I1B2Tz\ninjhzWZHv1X+pqgV+b20XI/FT80GLNZ5DQ5A+KCVUJFJfVI6fYh0hi25/fZuk2/D\nODpRnZfQ1kYwpLXiJSbNm3v2dRVD4UHGoQuPCIUOVPo86ZARnL5/NzpUXj76a6B9\nIlqWHYSSGAy0kLmWnxQrAL5kMq+0Qeu0QAQFwz23n+C8TroVamkJDqf8Fx+7otR1\nXGsFMdue89XNTj0bhNx6/4tTPrqknqmQYweLOo+ycgNuoBXyU+9NjZaWxYPRCcSs\ne1ojt2AwsSI7IoChnZzpgwNyFA6nRbO51Cj4qq6EulGDx3rG30GBvjSSp+WD+/A=\n=nt+h\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fa811d26f228d48eee4becf739d974e3d4e0ab51\nparent 4b00b1b3071d6aac2840b49bfff1a4a4a5654de6\nauthor Joey Reid <botanize@users.noreply.github.com> 1634913462 -0500\ncommitter GitHub <noreply@github.com> 1634913462 -0400\n\nAdd Primary and Foreign ID fields (#278)\n\n* Add Primary and Foreign ID fields\r\n\r\n* Improve ID field definitions\r\n\r\n* Fix incorrect and add missing Primary IDs\r\n\r\n* Split key from ID\r\n\r\n* Fix capitalization\r\n\r\n* Update key and ids for transfers.txt"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/b3ea73fd7a988dc12291bdb0f76b3abeaad55cec",
+    "html_url": "https://github.com/google/transit/commit/b3ea73fd7a988dc12291bdb0f76b3abeaad55cec",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/b3ea73fd7a988dc12291bdb0f76b3abeaad55cec/comments",
+    "author": {
+      "login": "botanize",
+      "id": 6433981,
+      "node_id": "MDQ6VXNlcjY0MzM5ODE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6433981?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/botanize",
+      "html_url": "https://github.com/botanize",
+      "followers_url": "https://api.github.com/users/botanize/followers",
+      "following_url": "https://api.github.com/users/botanize/following{/other_user}",
+      "gists_url": "https://api.github.com/users/botanize/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/botanize/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/botanize/subscriptions",
+      "organizations_url": "https://api.github.com/users/botanize/orgs",
+      "repos_url": "https://api.github.com/users/botanize/repos",
+      "events_url": "https://api.github.com/users/botanize/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/botanize/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b00b1b3071d6aac2840b49bfff1a4a4a5654de6",
+        "url": "https://api.github.com/repos/google/transit/commits/4b00b1b3071d6aac2840b49bfff1a4a4a5654de6",
+        "html_url": "https://github.com/google/transit/commit/4b00b1b3071d6aac2840b49bfff1a4a4a5654de6"
+      }
+    ]
+  },
+  {
+    "sha": "4b00b1b3071d6aac2840b49bfff1a4a4a5654de6",
+    "node_id": "C_kwDOAlVrjdoAKDRiMDBiMWIzMDcxZDZhYWMyODQwYjQ5YmZmZjFhNGE0YTU2NTRkZTY",
+    "commit": {
+      "author": {
+        "name": "scott christian mccallum",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-10-05T13:44:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-10-05T13:44:09Z"
+      },
+      "message": "Merge pull request #284 from MobilityData/trip-to-trip\n\nTrip-to-trip and route-to-route transfers",
+      "tree": {
+        "sha": "3107ffffff8cd904cdfa2cdc573c576b2b688de9",
+        "url": "https://api.github.com/repos/google/transit/git/trees/3107ffffff8cd904cdfa2cdc573c576b2b688de9"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/4b00b1b3071d6aac2840b49bfff1a4a4a5654de6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhXFapCRBK7hj4Ov3rIwAA2t0IAGYaa1ZFWvE3xAF0FmW1bGpb\nwqbVcrKOXsqGg/3Vc/WH/RMAbaH0/W3D+7ZHuFzffrITMrhf2w+imtOTzdhJF1vJ\nzOe99Zyn18FR/AKSMufJFk4l1r2s2kLTZP6s/RVJbeka4Ym/+VsnsrfAWz6HFLta\nR4PGzmeFw5u+ptqpog9YwQkQRlcuEgaPsqgctog+1zhxG/NINswr3px//bmwdE3l\nT6tbgPgEEkzmHHHQjdqiBD4XS0otdpYUpNnexeaRws4mW9/tXgjMhJV8aNbIlapx\neEbAk94T+4aP1m4S8TO++sLXAr5Dff85VAhk5ZduHd4uQmZVtnosDLHnoOAbOBM=\n=XpxF\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3107ffffff8cd904cdfa2cdc573c576b2b688de9\nparent 68c968662108e7c2f69e7283893bebd0f977d959\nparent 61f76fc688ee9f1f73f18ec958a78f3da955e553\nauthor scott christian mccallum <scott@mobilitydata.org> 1633441449 -0400\ncommitter GitHub <noreply@github.com> 1633441449 -0400\n\nMerge pull request #284 from MobilityData/trip-to-trip\n\nTrip-to-trip and route-to-route transfers"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/4b00b1b3071d6aac2840b49bfff1a4a4a5654de6",
+    "html_url": "https://github.com/google/transit/commit/4b00b1b3071d6aac2840b49bfff1a4a4a5654de6",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/4b00b1b3071d6aac2840b49bfff1a4a4a5654de6/comments",
+    "author": null,
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "68c968662108e7c2f69e7283893bebd0f977d959",
+        "url": "https://api.github.com/repos/google/transit/commits/68c968662108e7c2f69e7283893bebd0f977d959",
+        "html_url": "https://github.com/google/transit/commit/68c968662108e7c2f69e7283893bebd0f977d959"
+      },
+      {
+        "sha": "61f76fc688ee9f1f73f18ec958a78f3da955e553",
+        "url": "https://api.github.com/repos/google/transit/commits/61f76fc688ee9f1f73f18ec958a78f3da955e553",
+        "html_url": "https://github.com/google/transit/commit/61f76fc688ee9f1f73f18ec958a78f3da955e553"
+      }
+    ]
+  },
+  {
+    "sha": "68c968662108e7c2f69e7283893bebd0f977d959",
+    "node_id": "C_kwDOAlVrjdoAKDY4Yzk2ODY2MjEwOGU3YzJmNjllNzI4Mzg5M2JlYmQwZjk3N2Q5NTk",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-30T18:07:54Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-30T18:07:54Z"
+      },
+      "message": "update revision history",
+      "tree": {
+        "sha": "40da162d2297f77aa89856f60b477a471b9e4f4d",
+        "url": "https://api.github.com/repos/google/transit/git/trees/40da162d2297f77aa89856f60b477a471b9e4f4d"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/68c968662108e7c2f69e7283893bebd0f977d959",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/68c968662108e7c2f69e7283893bebd0f977d959",
+    "html_url": "https://github.com/google/transit/commit/68c968662108e7c2f69e7283893bebd0f977d959",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/68c968662108e7c2f69e7283893bebd0f977d959/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+        "url": "https://api.github.com/repos/google/transit/commits/fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+        "html_url": "https://github.com/google/transit/commit/fdc23a40a6aed76a375448717c1a115a30e3e2ee"
+      }
+    ]
+  },
+  {
+    "sha": "61f76fc688ee9f1f73f18ec958a78f3da955e553",
+    "node_id": "C_kwDOAlVrjdoAKDYxZjc2ZmM2ODhlZTlmMWY3M2YxOGVjOTU4YTc4ZjNkYTk1NWU1NTM",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-28T18:56:45Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-28T18:56:45Z"
+      },
+      "message": "reword trip_id precedence",
+      "tree": {
+        "sha": "2b50886a92c12388134e985bfa6a502bde797127",
+        "url": "https://api.github.com/repos/google/transit/git/trees/2b50886a92c12388134e985bfa6a502bde797127"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/61f76fc688ee9f1f73f18ec958a78f3da955e553",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/61f76fc688ee9f1f73f18ec958a78f3da955e553",
+    "html_url": "https://github.com/google/transit/commit/61f76fc688ee9f1f73f18ec958a78f3da955e553",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/61f76fc688ee9f1f73f18ec958a78f3da955e553/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "45e4afeeae243020e94817fa85fc8133126997ca",
+        "url": "https://api.github.com/repos/google/transit/commits/45e4afeeae243020e94817fa85fc8133126997ca",
+        "html_url": "https://github.com/google/transit/commit/45e4afeeae243020e94817fa85fc8133126997ca"
+      }
+    ]
+  },
+  {
+    "sha": "45e4afeeae243020e94817fa85fc8133126997ca",
+    "node_id": "C_kwDOAlVrjdoAKDQ1ZTRhZmVlYWUyNDMwMjBlOTQ4MTdmYTg1ZmM4MTMzMTI2OTk3Y2E",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-27T16:45:46Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-27T16:45:46Z"
+      },
+      "message": "require matching routes and trips",
+      "tree": {
+        "sha": "b942e2eb42904b34f681de5814e30e8dcd9cd72a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/b942e2eb42904b34f681de5814e30e8dcd9cd72a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/45e4afeeae243020e94817fa85fc8133126997ca",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/45e4afeeae243020e94817fa85fc8133126997ca",
+    "html_url": "https://github.com/google/transit/commit/45e4afeeae243020e94817fa85fc8133126997ca",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/45e4afeeae243020e94817fa85fc8133126997ca/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "19431dfc4052ef287fce5cbcba55ddb08a3fd5c5",
+        "url": "https://api.github.com/repos/google/transit/commits/19431dfc4052ef287fce5cbcba55ddb08a3fd5c5",
+        "html_url": "https://github.com/google/transit/commit/19431dfc4052ef287fce5cbcba55ddb08a3fd5c5"
+      }
+    ]
+  },
+  {
+    "sha": "19431dfc4052ef287fce5cbcba55ddb08a3fd5c5",
+    "node_id": "C_kwDOAlVrjdoAKDE5NDMxZGZjNDA1MmVmMjg3ZmNlNWNiY2JhNTVkZGIwOGEzZmQ1YzU",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-27T16:02:49Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-27T16:02:49Z"
+      },
+      "message": "revert conditionally forbidden\n\nupdated to match the original Google extension",
+      "tree": {
+        "sha": "e22faee34a9b33ab969ac9b68f25907577b0a60a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/e22faee34a9b33ab969ac9b68f25907577b0a60a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/19431dfc4052ef287fce5cbcba55ddb08a3fd5c5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/19431dfc4052ef287fce5cbcba55ddb08a3fd5c5",
+    "html_url": "https://github.com/google/transit/commit/19431dfc4052ef287fce5cbcba55ddb08a3fd5c5",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/19431dfc4052ef287fce5cbcba55ddb08a3fd5c5/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "a1891070e76a707852a45e79aba16c88cc6f2227",
+        "url": "https://api.github.com/repos/google/transit/commits/a1891070e76a707852a45e79aba16c88cc6f2227",
+        "html_url": "https://github.com/google/transit/commit/a1891070e76a707852a45e79aba16c88cc6f2227"
+      }
+    ]
+  },
+  {
+    "sha": "a1891070e76a707852a45e79aba16c88cc6f2227",
+    "node_id": "C_kwDOAlVrjdoAKGExODkxMDcwZTc2YTcwNzg1MmE0NWU3OWFiYTE2Yzg4Y2M2ZjIyMjc",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-27T14:37:41Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-27T14:37:41Z"
+      },
+      "message": "Conditionally Forbidden to RFC\n\nEditorial to reword Conditionally Forbidden to RFC 2119",
+      "tree": {
+        "sha": "1a9fd6750490a67c8537fedffb85403528434395",
+        "url": "https://api.github.com/repos/google/transit/git/trees/1a9fd6750490a67c8537fedffb85403528434395"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/a1891070e76a707852a45e79aba16c88cc6f2227",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/a1891070e76a707852a45e79aba16c88cc6f2227",
+    "html_url": "https://github.com/google/transit/commit/a1891070e76a707852a45e79aba16c88cc6f2227",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/a1891070e76a707852a45e79aba16c88cc6f2227/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "8d168c555e3b72b4d4e748b8205964ff33f0ae8e",
+        "url": "https://api.github.com/repos/google/transit/commits/8d168c555e3b72b4d4e748b8205964ff33f0ae8e",
+        "html_url": "https://github.com/google/transit/commit/8d168c555e3b72b4d4e748b8205964ff33f0ae8e"
+      }
+    ]
+  },
+  {
+    "sha": "8d168c555e3b72b4d4e748b8205964ff33f0ae8e",
+    "node_id": "MDY6Q29tbWl0MzkxNTI1MjU6OGQxNjhjNTU1ZTNiNzJiNGQ0ZTc0OGI4MjA1OTY0ZmYzM2YwYWU4ZQ==",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-20T16:12:53Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-20T16:12:53Z"
+      },
+      "message": "specificity rules",
+      "tree": {
+        "sha": "d423365f7c636c0c6bd2a979733609b361130f2d",
+        "url": "https://api.github.com/repos/google/transit/git/trees/d423365f7c636c0c6bd2a979733609b361130f2d"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/8d168c555e3b72b4d4e748b8205964ff33f0ae8e",
+      "comment_count": 1,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/8d168c555e3b72b4d4e748b8205964ff33f0ae8e",
+    "html_url": "https://github.com/google/transit/commit/8d168c555e3b72b4d4e748b8205964ff33f0ae8e",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/8d168c555e3b72b4d4e748b8205964ff33f0ae8e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "1c5d65a87ba341527ccd5c958dade86a23f8d5ae",
+        "url": "https://api.github.com/repos/google/transit/commits/1c5d65a87ba341527ccd5c958dade86a23f8d5ae",
+        "html_url": "https://github.com/google/transit/commit/1c5d65a87ba341527ccd5c958dade86a23f8d5ae"
+      }
+    ]
+  },
+  {
+    "sha": "1c5d65a87ba341527ccd5c958dade86a23f8d5ae",
+    "node_id": "MDY6Q29tbWl0MzkxNTI1MjU6MWM1ZDY1YTg3YmEzNDE1MjdjY2Q1Yzk1OGRhZGU4NmEyM2Y4ZDVhZQ==",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-20T15:49:44Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-20T15:49:44Z"
+      },
+      "message": "Conditionally Forbidden",
+      "tree": {
+        "sha": "1d4f4cec8ecf11ed13a1c6f9bc606dc2add07f4a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/1d4f4cec8ecf11ed13a1c6f9bc606dc2add07f4a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/1c5d65a87ba341527ccd5c958dade86a23f8d5ae",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/1c5d65a87ba341527ccd5c958dade86a23f8d5ae",
+    "html_url": "https://github.com/google/transit/commit/1c5d65a87ba341527ccd5c958dade86a23f8d5ae",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/1c5d65a87ba341527ccd5c958dade86a23f8d5ae/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e",
+        "url": "https://api.github.com/repos/google/transit/commits/c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e",
+        "html_url": "https://github.com/google/transit/commit/c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e"
+      }
+    ]
+  },
+  {
+    "sha": "c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e",
+    "node_id": "MDY6Q29tbWl0MzkxNTI1MjU6YzViYmFmN2JmN2ZmMjM2YTM5MGEyY2I2NDIxZjRlNmQ3NGYwYTgzZQ==",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-17T15:44:23Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-17T15:44:23Z"
+      },
+      "message": "route-to-route transfers",
+      "tree": {
+        "sha": "06c3676f0965eafb62428496a39f94bc9fc18255",
+        "url": "https://api.github.com/repos/google/transit/git/trees/06c3676f0965eafb62428496a39f94bc9fc18255"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e",
+    "html_url": "https://github.com/google/transit/commit/c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/c5bbaf7bf7ff236a390a2cb6421f4e6d74f0a83e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "25f1287b07e09bd924e4401077819e03fe17a601",
+        "url": "https://api.github.com/repos/google/transit/commits/25f1287b07e09bd924e4401077819e03fe17a601",
+        "html_url": "https://github.com/google/transit/commit/25f1287b07e09bd924e4401077819e03fe17a601"
+      }
+    ]
+  },
+  {
+    "sha": "25f1287b07e09bd924e4401077819e03fe17a601",
+    "node_id": "MDY6Q29tbWl0MzkxNTI1MjU6MjVmMTI4N2IwN2UwOWJkOTI0ZTQ0MDEwNzc4MTllMDNmZTE3YTYwMQ==",
+    "commit": {
+      "author": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-17T14:13:47Z"
+      },
+      "committer": {
+        "name": "scmcca",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-17T14:13:47Z"
+      },
+      "message": "Trip-to-trip transfers",
+      "tree": {
+        "sha": "6ba8f0ff31cd7d2c4ac0ca345d73acc849df0679",
+        "url": "https://api.github.com/repos/google/transit/git/trees/6ba8f0ff31cd7d2c4ac0ca345d73acc849df0679"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/25f1287b07e09bd924e4401077819e03fe17a601",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/25f1287b07e09bd924e4401077819e03fe17a601",
+    "html_url": "https://github.com/google/transit/commit/25f1287b07e09bd924e4401077819e03fe17a601",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/25f1287b07e09bd924e4401077819e03fe17a601/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+        "url": "https://api.github.com/repos/google/transit/commits/fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+        "html_url": "https://github.com/google/transit/commit/fdc23a40a6aed76a375448717c1a115a30e3e2ee"
+      }
+    ]
+  },
+  {
+    "sha": "fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+    "node_id": "MDY6Q29tbWl0MzkxNTI1MjU6ZmRjMjNhNDBhNmFlZDc2YTM3NTQ0ODcxN2MxYTExNWEzMGUzZTJlZQ==",
+    "commit": {
+      "author": {
+        "name": "scott christian mccallum",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-15T13:03:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-09-15T13:03:04Z"
+      },
+      "message": "Merge pull request #276 from MobilityData/bidirectional-fare-gates\n\nAllow fare gates (pathway_mode=6) to be bidirectional",
+      "tree": {
+        "sha": "42b64650106b4b4c6eb52d356821863ac12c6bdb",
+        "url": "https://api.github.com/repos/google/transit/git/trees/42b64650106b4b4c6eb52d356821863ac12c6bdb"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhQe8JCRBK7hj4Ov3rIwAAbLUIAGG8TPGbxqRACFrukG9Lgp5e\nlT9z8jqIAo8+8nehWUdoqeRq0PpzHSxxndTfSjqbUNkNoLQvK5qZQkvK3XzuZdKw\n5Sc4SifSQKx/hXemhb/so76klrnC4eH6lg7CxhejZ26/zB4httfrrEgL2+lXJh0k\numD4GT3BMF8ykVx+VSmjFPRtyE96TjzhYXUrTOC6aw0NUT534xFxIpAK0T/RTF91\nFEi/e2DC0AmIvrhrE+Y3moAjP4a1azsuX/o5kOPreYl6WJAGEJ9CuHzfpVkHkzjG\nwL8pWFcXRB+ov8OxGJLDLEYkwGiYPCi9UgZrLzOL4poJenxp2E6G4KuwnHjCOjY=\n=1IPW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 42b64650106b4b4c6eb52d356821863ac12c6bdb\nparent a24a32fe8c4f5202cc70276d776f0f701af4cf2a\nparent f64ad812907b54d53b9a1a14eea7a9f02040cf0e\nauthor scott christian mccallum <scott@mobilitydata.org> 1631710984 -0400\ncommitter GitHub <noreply@github.com> 1631710984 -0400\n\nMerge pull request #276 from MobilityData/bidirectional-fare-gates\n\nAllow fare gates (pathway_mode=6) to be bidirectional"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+    "html_url": "https://github.com/google/transit/commit/fdc23a40a6aed76a375448717c1a115a30e3e2ee",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/fdc23a40a6aed76a375448717c1a115a30e3e2ee/comments",
+    "author": null,
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a24a32fe8c4f5202cc70276d776f0f701af4cf2a",
+        "url": "https://api.github.com/repos/google/transit/commits/a24a32fe8c4f5202cc70276d776f0f701af4cf2a",
+        "html_url": "https://github.com/google/transit/commit/a24a32fe8c4f5202cc70276d776f0f701af4cf2a"
+      },
+      {
+        "sha": "f64ad812907b54d53b9a1a14eea7a9f02040cf0e",
+        "url": "https://api.github.com/repos/google/transit/commits/f64ad812907b54d53b9a1a14eea7a9f02040cf0e",
+        "html_url": "https://github.com/google/transit/commit/f64ad812907b54d53b9a1a14eea7a9f02040cf0e"
+      }
+    ]
+  },
+  {
+    "sha": "f64ad812907b54d53b9a1a14eea7a9f02040cf0e",
+    "node_id": "MDY6Q29tbWl0MzkxNTI1MjU6ZjY0YWQ4MTI5MDdiNTRkNTNiOWExYTE0ZWVhN2E5ZjAyMDQwY2YwZQ==",
+    "commit": {
+      "author": {
+        "name": "scott christian mccallum",
+        "email": "scott@mobilitydata.org",
+        "date": "2021-09-07T15:40:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-09-07T15:40:49Z"
+      },
+      "message": "Merge branch 'master' into bidirectional-fare-gates",
+      "tree": {
+        "sha": "e32ef44a9c3c0c6c288408c1cd7fe6c9b2db528a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/e32ef44a9c3c0c6c288408c1cd7fe6c9b2db528a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/f64ad812907b54d53b9a1a14eea7a9f02040cf0e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhN4gBCRBK7hj4Ov3rIwAAragIAGPQKe+e/SyV5KA416QD7qU8\nGSA8QNEaq2Ak/C8NeSYym5twBZm6sTAh9B52oddQK2jvk2NEYnjOBvJ1WfPoCTEp\nY/bZZqW2+21a/xyN7WBcUtDtmju1Otj3F6k6pwhd6lTv0GfU9kTUwwFVFkxA7p05\nb7wqdjvUIDlTJ00I8/WzQQGO5oXXTBeWMLtB7FgrURVUEzmMQXtIAdOg7WsnfLm7\nvGv0WuYAJHbMH6PIyudAoatCyeVVaTkMgteNkBgjXmEGuQCa2dmQDeBwWUjSW14j\n4MS0PmPlnX/MmilZQ+xArnd3GZQZU/dZ+IC51R/YfNpkAkE3vPhIm+K0KCihKyc=\n=cP7h\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e32ef44a9c3c0c6c288408c1cd7fe6c9b2db528a\nparent 7168b05ccf4dd7a6ca3cada4acdaa0fe8de90c83\nparent 99fdfba627451d2861346c631af84535fa1e02fb\nauthor scott christian mccallum <scott@mobilitydata.org> 1631029249 -0400\ncommitter GitHub <noreply@github.com> 1631029249 -0400\n\nMerge branch 'master' into bidirectional-fare-gates"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/f64ad812907b54d53b9a1a14eea7a9f02040cf0e",
+    "html_url": "https://github.com/google/transit/commit/f64ad812907b54d53b9a1a14eea7a9f02040cf0e",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/f64ad812907b54d53b9a1a14eea7a9f02040cf0e/comments",
+    "author": null,
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7168b05ccf4dd7a6ca3cada4acdaa0fe8de90c83",
+        "url": "https://api.github.com/repos/google/transit/commits/7168b05ccf4dd7a6ca3cada4acdaa0fe8de90c83",
+        "html_url": "https://github.com/google/transit/commit/7168b05ccf4dd7a6ca3cada4acdaa0fe8de90c83"
+      },
+      {
+        "sha": "99fdfba627451d2861346c631af84535fa1e02fb",
+        "url": "https://api.github.com/repos/google/transit/commits/99fdfba627451d2861346c631af84535fa1e02fb",
+        "html_url": "https://github.com/google/transit/commit/99fdfba627451d2861346c631af84535fa1e02fb"
+      }
+    ]
+  }
+]
