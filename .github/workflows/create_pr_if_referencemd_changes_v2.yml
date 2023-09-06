@@ -17,8 +17,8 @@ jobs:
         uses: actions/checkout@v4.0.0
         with:
           ref: master
+          fetch-depth: 0
           token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }} 
-          # Default: ${{ github.token }}
 
       - name: Set up Git
         run: |
@@ -87,6 +87,7 @@ jobs:
           base: ${{ steps.create-branch-commit.outputs.base_branch }}
           title: Changes made to `reference.md` from Google Transit's repo
           body: Commits have been made to the `reference.md` file in the last 24 hours. Automatically generated a pull request.
+          author: frederic-contractor@mobilitydata.org
           reviewers: emmambd  # Comma-separated list of reviewers
           assignees: emmambd  # Comma-separated list of assignees
           add-paths: ${{ steps.extract-file-paths.outputs.file-paths }}
