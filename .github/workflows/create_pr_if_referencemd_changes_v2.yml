@@ -1,0 +1,92 @@
+name: Fetch Commits and Create PR
+
+# on:
+#   schedule:
+#     - cron: '* * * * *'  # Runs daily at midnight UTC
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  fetch-and-create-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository gtfs-validator
+        uses: actions/checkout@v4.0.0
+        with:
+          ref: master
+          token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }} 
+          # Default: ${{ github.token }}
+
+      - name: Set up Git
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: Fetch Commits from Repository Google Transit
+        id: fetch-commits
+        run: |
+          commits=$(curl -s -H "Authorization: Bearer ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}" "https://api.github.com/repos/google/transit/commits?path=gtfs/spec/en/reference.md")
+
+          # Extract the commit information as needed
+          echo "$commits" > commits.json
+
+      - name: Calculate Today's Date
+        id: today-date
+        run: |
+          echo "::set-output name=date::$(date +'%Y-%m-%d')"
+
+      - name: Extract File Paths from Commits
+        id: extract-file-paths
+        run: |
+          commits=$(echo "${{ steps.fetch-commits.outputs.commits }}")
+          file_paths=$(echo "$commits" | jq -r '.[].files[].filename' | sort -u)
+          echo "file-paths=${file_paths}" >> $GITHUB_OUTPUT
+        #   echo "::set-output name=file-paths::$file_paths"
+
+      - name: Create Branch and commit in GTFS validator repo
+        id: create-branch-commit
+        run: |
+          access_token=${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
+          repo_owner=fredericsimard         # TO CHANGE IN FINAL VERSION
+          repo_name=gtfs-validator-fork     # TO CHANGE IN FINAL VERSION
+          base_branch=master
+          new_branch=reference-md-commits-${{ steps.today-date.outputs.date }}   # branch: "reference-md-commits-${{ steps.today-date.outputs.date }}"
+          file_paths=${{ steps.extract-file-paths.outputs.file-paths }}
+
+          # Create a new branch
+          git checkout -b "$new_branch"
+
+          #git pull origin master
+
+          # Add all files to the commit
+          git add .
+
+          # Commit and push changes to the new branch
+          git commit -am "Changes made to reference.md in the Google Transit repo."
+
+          echo "base_branch=${base_branch}" >> $GITHUB_OUTPUT
+          echo "new_branch=${new_branch}" >> $GITHUB_OUTPUT
+
+      - name: Push changes
+        id: push-changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
+          branch: ${{ steps.create-branch-commit.outputs.new_branch }}
+          force: true
+
+      - name: Create PR
+        id: create-pr
+        uses: peter-evans/create-pull-request@v5.0.2
+        with:
+          token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
+          branch: ${{ steps.create-branch-commit.outputs.new_branch }}
+          base: ${{ steps.create-branch-commit.outputs.base_branch }}
+          title: Changes made to `reference.md` from Google Transit's repo
+          body: Commits have been made to the `reference.md` file in the last 24 hours. Automatically generated a pull request.
+          reviewers: emmambd  # Comma-separated list of reviewers
+          assignees: emmambd  # Comma-separated list of assignees
+          add-paths: ${{ steps.extract-file-paths.outputs.file-paths }}
