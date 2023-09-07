@@ -93,7 +93,7 @@ jobs:
           base: ${{ steps.create-branch-commit.outputs.base_branch }}
           title: Changes made to `reference.md` from Google Transit's repo
           body: Commits have been made to the `reference.md` file in the last 24 hours (${{ steps.dates.outputs.yesterday }} at midnight UTC). Automatically generated a pull request.
-          author: "${{ steps.git-setup.outputs.user_name }} ${{ steps.git-setup.outputs.user_email }}"
+          author: "${{ steps.git-setup.outputs.user_name }} <${{ steps.git-setup.outputs.user_email }}>"
           reviewers: emmambd  # Comma-separated list of reviewers
           assignees: emmambd  # Comma-separated list of assignees
           add-paths: ${{ steps.extract-file-paths.outputs.file-paths }}
