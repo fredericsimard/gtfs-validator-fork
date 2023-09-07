@@ -20,15 +20,15 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }} 
 
-      - name: Set up Git
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      # - name: Set up Git
+      #   run: |
+      #     git config user.name github-actions[bot]
+      #     git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Fetch Commits from Repository Google Transit
         id: fetch-commits
         run: |
-          commits=$(curl -s -H "Authorization: Bearer ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}" "https://api.github.com/repos/google/transit/commits?path=gtfs/spec/en/reference.md")
+          commits=$(curl -s -H "Accept: application/vnd.github+json Authorization: Bearer ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }} X-GitHub-Api-Version: 2022-11-28" "https://api.github.com/repos/google/transit/commits?path=gtfs/spec/en/reference.md&since=2023-08-14")
 
           # Extract the commit information as needed
           echo "$commits" > commits.json
@@ -36,7 +36,8 @@ jobs:
       - name: Calculate Today's Date
         id: today-date
         run: |
-          echo "::set-output name=date::$(date +'%Y-%m-%d')"
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        # echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
       - name: Extract File Paths from Commits
         id: extract-file-paths
@@ -44,7 +45,7 @@ jobs:
           commits=$(echo "${{ steps.fetch-commits.outputs.commits }}")
           file_paths=$(echo "$commits" | jq -r '.[].files[].filename' | sort -u)
           echo "file-paths=${file_paths}" >> $GITHUB_OUTPUT
-        #   echo "::set-output name=file-paths::$file_paths"
+        # echo "::set-output name=file-paths::$file_paths"
 
       - name: Create Branch and commit in GTFS validator repo
         id: create-branch-commit
@@ -53,13 +54,11 @@ jobs:
           repo_owner=fredericsimard         # TO CHANGE IN FINAL VERSION
           repo_name=gtfs-validator-fork     # TO CHANGE IN FINAL VERSION
           base_branch=master
-          new_branch=reference-md-commits-${{ steps.today-date.outputs.date }}   # branch: "reference-md-commits-${{ steps.today-date.outputs.date }}"
+          new_branch=reference-md-commits-${{ steps.today-date.outputs.date }}
           file_paths=${{ steps.extract-file-paths.outputs.file-paths }}
 
           # Create a new branch
           git checkout -b "$new_branch"
-
-          #git pull origin master
 
           # Add all files to the commit
           git add .
