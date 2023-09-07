@@ -47,13 +47,13 @@ jobs:
         uses: octokit/request-action@v2.x
         id: get_commits
         with:
-          route: GET /repos/OWNER/REPO/commits
-          owner: google
-          repo: transit
-          path: gtfs/spec/en/reference.md
+          route: GET /repos/google/transit/commits?path=gtfs/spec/en/reference.md&since=2023-08-01T00:00:00Z
+          # owner: google
+          # repo: transit
+          # path: gtfs/spec/en/reference.md
           mediaType: |
             format: json
-          since: '2023-08-01T00:00:00Z'
+          # since: '2023-08-01T00:00:00Z'
         env:
           GITHUB_TOKEN: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
 
