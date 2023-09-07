@@ -20,10 +20,10 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }} 
 
-      # - name: Set up Git
-      #   run: |
-      #     git config user.name github-actions[bot]
-      #     git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Set up Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Fetch Commits from Repository Google Transit
         id: fetch-commits
@@ -32,6 +32,9 @@ jobs:
 
           # Extract the commit information as needed
           echo "$commits" > commits.json
+
+        # YYYY-MM-DDTHH:MM:SSZ
+        # 2023-08-14T00:00:00Z
 
       - name: Calculate Today's Date
         id: today-date
