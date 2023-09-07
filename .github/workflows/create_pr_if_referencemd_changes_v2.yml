@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check condition
+        id: condition_check
+        run: echo "::set-output name=condition_met::false"  # Default to false
+
       - name: Checkout Repository gtfs-validator
         uses: actions/checkout@v4.0.0
         with:
@@ -42,11 +46,12 @@ jobs:
         run: |
           commits=$(curl -s -H "Authorization: Bearer ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}" "https://api.github.com/repos/google/transit/commits?path=gtfs/spec/en/reference.md&since=2023-08-01T00:00:00Z")
 
+          if [ -n "$commits" ]; then
+            echo "::set-output name=condition_met::true"
+          fi
+
           # Extract the commit information as needed
           echo "$commits" > commits.json
-
-          echo "today : ${{ steps.dates.outputs.today }}"
-          echo "yesterday : ${{ steps.dates.outputs.yesterday }}"
 
         # Requires this date format:
         # YYYY-MM-DDTHH:MM:SSZ
@@ -55,14 +60,15 @@ jobs:
 
       - name: Extract File Paths from Commits
         id: extract-file-paths
+        if: steps.condition_check.outputs.condition_met == 'true'
         run: |
           commits=$(echo "${{ steps.fetch-commits.outputs.commits }}")
           file_paths=$(echo "$commits" | jq -r '.[].files[].filename' | sort -u)
-          echo "file paths : ${file_paths}"
           echo "file-paths=${file_paths}" >> $GITHUB_OUTPUT
 
       - name: Create Branch and commit in GTFS validator repo
         id: create-branch-commit
+        if: steps.condition_check.outputs.condition_met == 'true'
         run: |
           access_token=${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
           repo_owner=fredericsimard         # TO CHANGE IN FINAL VERSION
@@ -85,6 +91,7 @@ jobs:
 
       - name: Push changes
         id: push-changes
+        if: steps.condition_check.outputs.condition_met == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
@@ -93,6 +100,7 @@ jobs:
 
       - name: Create PR
         id: create-pr
+        if: steps.condition_check.outputs.condition_met == 'true'
         uses: peter-evans/create-pull-request@v5.0.2
         with:
           token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
