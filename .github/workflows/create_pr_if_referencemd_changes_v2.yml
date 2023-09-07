@@ -74,13 +74,15 @@ jobs:
       - name: Check condition
         id: condition_check
         run: |
-          commit_messages=$(echo "${{ steps.get-commits.outputs.data }}" | jq -r '.[].commit.message')
+          commit_messages=$(echo ${{ steps.get-commits.outputs.data }} | jq '. | length')
           if [ -n "${commit_messages}" ]; then
             echo "condition_met=true" >> $GITHUB_OUTPUT
           else
             echo "condition_met=false" >> $GITHUB_OUTPUT
           fi
+          echo "number of commits : {$commit_messages}"
         shell: bash
+      #  commit_messages=$(echo "${{ steps.get-commits.outputs.data }}" | jq -r '.[].commit.message')
 
       - name: Extract File Paths from Commits
         id: extract-file-paths
