@@ -27,10 +27,9 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           echo "user_name=github-actions[bot]" >> $GITHUB_OUTPUT
           echo "user_email=41898282+github-actions[bot]@users.noreply.github.com" >> $GITHUB_OUTPUT
-          echo "reviewer=fredericsimard" >> $GITHUB_OUTPUT 
-          echo "assigned=fredericsimard" >> $GITHUB_OUTPUT
+          echo "reviewer=emmambd" >> $GITHUB_OUTPUT 
+          echo "assigned=emmambd" >> $GITHUB_OUTPUT
         # Comma-separated list of reviewers and assignees
-        # emmambd
 
       - name: Calculate Dates
         id: dates
