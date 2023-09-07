@@ -74,7 +74,7 @@ jobs:
       - name: Check condition
         id: condition_check
         run: |
-          commit_messages=$(echo "${{ steps.get-commits.outputs.data }}" | jq -r '. | length')
+          commit_messages=$(echo "${{ fromJson(steps.set_var.outputs.packageJson) }}" | jq -r '. | length')
           if [ -n "${commit_messages}" ]; then
             echo "condition_met=true" >> $GITHUB_OUTPUT
           else
@@ -82,6 +82,7 @@ jobs:
           fi
           echo "number of commits : {$commit_messages}"
         shell: bash
+      # echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
       #  commit_messages=$(echo "${{ steps.get-commits.outputs.data }}" | jq -r '.[].commit.message')
 
       - name: Extract File Paths from Commits
