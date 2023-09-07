@@ -53,6 +53,7 @@ jobs:
 
           # Extract the commit information as needed
           echo "$commits" > commits.json
+          echo "commits? ${{ steps.condition_check.outputs.condition_met }}"
 
         # Requires this date format:
         # YYYY-MM-DDTHH:MM:SSZ
@@ -66,6 +67,7 @@ jobs:
           commits=$(echo "${{ steps.fetch-commits.outputs.commits }}")
           file_paths=$(echo "$commits" | jq -r '.[].files[].filename' | sort -u)
           echo "file-paths=${file_paths}" >> $GITHUB_OUTPUT
+          echo "commits? ${{ steps.condition_check.outputs.condition_met }}"
 
       - name: Create Branch and commit in GTFS validator repo
         id: create-branch-commit
@@ -89,6 +91,7 @@ jobs:
 
           echo "base_branch=${base_branch}" >> $GITHUB_OUTPUT
           echo "new_branch=${new_branch}" >> $GITHUB_OUTPUT
+          echo "commits? ${{ steps.condition_check.outputs.condition_met }}"
 
       - name: Push changes
         id: push-changes
