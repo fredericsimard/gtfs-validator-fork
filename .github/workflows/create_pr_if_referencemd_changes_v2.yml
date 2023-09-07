@@ -43,7 +43,8 @@ jobs:
           commits=$(curl -s -H "Authorization: Bearer ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}" "https://api.github.com/repos/google/transit/commits?path=gtfs/spec/en/reference.md&since=2023-08-01T00:00:00Z")
 
           # Extract the commit information as needed
-          echo "$commits" > commits.json
+          echo "allcommits=${commits}" >> $GITHUB_OUTPUT
+        # echo "$commits" > commits.json
 
           echo "today : ${{ steps.dates.outputs.today }}"
           echo "yesterday : ${{ steps.dates.outputs.yesterday }}"
@@ -56,7 +57,7 @@ jobs:
       - name: Extract File Paths from Commits
         id: extract-file-paths
         run: |
-          commits=$(echo "${{ steps.fetch-commits.outputs.commits }}")
+          commits=$(echo "${{ steps.fetch-commits.outputs.allcommits }}")
           file_paths=$(echo "$commits" | jq -r '.[].files[].filename' | sort -u)
           echo "file paths : ${file_paths}"
           echo "file-paths=${file_paths}" >> $GITHUB_OUTPUT
