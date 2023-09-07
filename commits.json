@@ -1,0 +1,239 @@
+[
+  {
+    "sha": "4dcefae297a70a75031e1a912992dd3caa1f3416",
+    "node_id": "C_kwDOAlVrjdoAKDRkY2VmYWUyOTdhNzBhNzUwMzFlMWE5MTI5OTJkZDNjYWExZjM0MTY",
+    "commit": {
+      "author": {
+        "name": "Tzu-Jen Chan",
+        "email": "126435471+tzujenchanmbd@users.noreply.github.com",
+        "date": "2023-08-02T17:27:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-08-02T17:27:01Z"
+      },
+      "message": "fare_media_type=1 (#385)\n\nAdded fare_media_type=1 in description",
+      "tree": {
+        "sha": "449fb6aeb4e669c1a359c9265e66e75e7c4cbb6a",
+        "url": "https://api.github.com/repos/google/transit/git/trees/449fb6aeb4e669c1a359c9265e66e75e7c4cbb6a"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/4dcefae297a70a75031e1a912992dd3caa1f3416",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkypHlCRBK7hj4Ov3rIwAALWQIABNZSa1LYoETZ/1tfHCZbndu\nBZxLS+aocXU43xt9B9AIWOWti2msN3WPNxz87yY0O+9jEA6vCrLwxG7C3m2jKwUL\ndotdzMhir+48s2ImsyB7Fy4fqS1FrSxikiwyH7DqPKrNOdItz+l8WrFrJECqnFpz\nX32GS/7f9PyzAW2mtM77PrUa3OTLdtlBER9ufeB7RY4MJ8B2gtpaBDCg+/LCnFBA\nXKJgRY1bUPjASZFd8A1VPXRANH2l9o2oxhrgRCFuhb6ESQOzz/ZHZydsBZHdbqjJ\njF3tIbkk4S+586vmX3B8aqBVdeAf3TkyjMBz6a2OnQSjavbHM0LM6IJQ7YyGhIU=\n=xy6M\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 449fb6aeb4e669c1a359c9265e66e75e7c4cbb6a\nparent 8c573420c80764419cc616718f104c791cd792cc\nauthor Tzu-Jen Chan <126435471+tzujenchanmbd@users.noreply.github.com> 1690997221 -0400\ncommitter GitHub <noreply@github.com> 1690997221 -0400\n\nfare_media_type=1 (#385)\n\nAdded fare_media_type=1 in description"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/4dcefae297a70a75031e1a912992dd3caa1f3416",
+    "html_url": "https://github.com/google/transit/commit/4dcefae297a70a75031e1a912992dd3caa1f3416",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/4dcefae297a70a75031e1a912992dd3caa1f3416/comments",
+    "author": {
+      "login": "tzujenchanmbd",
+      "id": 126435471,
+      "node_id": "U_kgDOB4lAjw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126435471?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzujenchanmbd",
+      "html_url": "https://github.com/tzujenchanmbd",
+      "followers_url": "https://api.github.com/users/tzujenchanmbd/followers",
+      "following_url": "https://api.github.com/users/tzujenchanmbd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzujenchanmbd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzujenchanmbd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzujenchanmbd/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzujenchanmbd/orgs",
+      "repos_url": "https://api.github.com/users/tzujenchanmbd/repos",
+      "events_url": "https://api.github.com/users/tzujenchanmbd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzujenchanmbd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8c573420c80764419cc616718f104c791cd792cc",
+        "url": "https://api.github.com/repos/google/transit/commits/8c573420c80764419cc616718f104c791cd792cc",
+        "html_url": "https://github.com/google/transit/commit/8c573420c80764419cc616718f104c791cd792cc"
+      }
+    ]
+  },
+  {
+    "sha": "8c573420c80764419cc616718f104c791cd792cc",
+    "node_id": "C_kwDOAlVrjdoAKDhjNTczNDIwYzgwNzY0NDE5Y2M2MTY3MThmMTA0Yzc5MWNkNzkyY2M",
+    "commit": {
+      "author": {
+        "name": "Tzu-Jen Chan",
+        "email": "126435471+tzujenchanmbd@users.noreply.github.com",
+        "date": "2023-08-01T16:17:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-08-01T16:17:20Z"
+      },
+      "message": "Clarify implied timezone in stop_times.txt (#378)\n\n* arri/dept time updates\r\n\r\nClarify implied timezone for time values at stop_times.arrival_time & stop_times.departure_time\r\n\r\n* Removed \"local time\"\r\n\r\nRemoved \"local time\" from Field Type: Time\r\n\r\n* Remove \"for the day on which the trip schedule begins\"\r\n\r\ncomment from derhuerst - https://github.com/google/transit/pull/378#discussion_r1200368724\r\n\r\n* Add \"not stops.stop_timezone\"\r\n\r\nAdd \"not stops.stop_timezone\" for both departure_time and arrival_time",
+      "tree": {
+        "sha": "0a46ffd142f41b29e4e90a3daa9e5027e3811d2f",
+        "url": "https://api.github.com/repos/google/transit/git/trees/0a46ffd142f41b29e4e90a3daa9e5027e3811d2f"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/8c573420c80764419cc616718f104c791cd792cc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkyTAQCRBK7hj4Ov3rIwAAjkoIACTY56xfuWxRRMyuHCVtpElf\n2IBtuerrLy8xU08oTF5wdLaRTc85NJP80kwAOGw8DrPOWqphIYInNi2VrGSLWAYY\n1SYavg2AUYmzA498bAKcXcouzyMu7jFZrsTjoofsDBUz1iXZm6wbKf6HHUApG3Lm\njediU1p05oUO0VqKMxB14mnysIYzRpmHRsbkMOtS0iyYd9cCSjGvgIkjbYG7wAM3\nV/ZIMCIwnYbt80m3onNdQ2NT4MZAgJF7NwVVQQSv803T50bitCTJStmOqAPc3fC6\nsIzqeu7E0qIV+uS1s5/vXvObedQ4/wIjGYAqFxP2ixE0hkwHnUifq+oJ33+IORA=\n=8ByM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0a46ffd142f41b29e4e90a3daa9e5027e3811d2f\nparent 17a032142f52cda34b8f8dcd5ffb7c05968447cd\nauthor Tzu-Jen Chan <126435471+tzujenchanmbd@users.noreply.github.com> 1690906640 -0400\ncommitter GitHub <noreply@github.com> 1690906640 -0400\n\nClarify implied timezone in stop_times.txt (#378)\n\n* arri/dept time updates\r\n\r\nClarify implied timezone for time values at stop_times.arrival_time & stop_times.departure_time\r\n\r\n* Removed \"local time\"\r\n\r\nRemoved \"local time\" from Field Type: Time\r\n\r\n* Remove \"for the day on which the trip schedule begins\"\r\n\r\ncomment from derhuerst - https://github.com/google/transit/pull/378#discussion_r1200368724\r\n\r\n* Add \"not stops.stop_timezone\"\r\n\r\nAdd \"not stops.stop_timezone\" for both departure_time and arrival_time"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/8c573420c80764419cc616718f104c791cd792cc",
+    "html_url": "https://github.com/google/transit/commit/8c573420c80764419cc616718f104c791cd792cc",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/8c573420c80764419cc616718f104c791cd792cc/comments",
+    "author": {
+      "login": "tzujenchanmbd",
+      "id": 126435471,
+      "node_id": "U_kgDOB4lAjw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126435471?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzujenchanmbd",
+      "html_url": "https://github.com/tzujenchanmbd",
+      "followers_url": "https://api.github.com/users/tzujenchanmbd/followers",
+      "following_url": "https://api.github.com/users/tzujenchanmbd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzujenchanmbd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzujenchanmbd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzujenchanmbd/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzujenchanmbd/orgs",
+      "repos_url": "https://api.github.com/users/tzujenchanmbd/repos",
+      "events_url": "https://api.github.com/users/tzujenchanmbd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzujenchanmbd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+        "url": "https://api.github.com/repos/google/transit/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+        "html_url": "https://github.com/google/transit/commit/17a032142f52cda34b8f8dcd5ffb7c05968447cd"
+      }
+    ]
+  },
+  {
+    "sha": "17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+    "node_id": "C_kwDOAlVrjdoAKDE3YTAzMjE0MmY1MmNkYTM0YjhmOGRjZDVmZmI3YzA1OTY4NDQ3Y2Q",
+    "commit": {
+      "author": {
+        "name": "Emma Blue",
+        "email": "90632321+emmambd@users.noreply.github.com",
+        "date": "2023-08-01T14:55:48Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-08-01T14:55:48Z"
+      },
+      "message": "Best practices: add recommended presence (#386)\n\n* Add recommended presence\r\n\r\n* feed_info.txt best practices\r\n\r\n* route_short_name best practice\r\n\r\n* agency_id best practice\r\n\r\n* timepoint best practice\r\n\r\n* inlining image for shape_dist_traveled\r\n\r\n* shape_dist_traveled field best practices\r\n\r\n* block_id field presence best practice\r\n\r\n* Clearer recommended definition\r\n\r\n* clarity improvements\r\n\r\n* Remove \"may\" for block_id in frequency based trips\r\n\r\n* fix shape_dist_traveled cell formatting",
+      "tree": {
+        "sha": "000cd359db4b51b54a421f8f3aa9333405af04f2",
+        "url": "https://api.github.com/repos/google/transit/git/trees/000cd359db4b51b54a421f8f3aa9333405af04f2"
+      },
+      "url": "https://api.github.com/repos/google/transit/git/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkyRz0CRBK7hj4Ov3rIwAAqMwIAJ3rOO3p4foVxLv7wbrI7lQC\nqpo83udpoRCQjHwe2OH6I5xzM/Vzd5NR/M5mocOu8M006pQyIHIJ0rBM2IhM3tBy\ntpatKEpq3SDMyjHn99fL2ifGshA6tWm95IRLdls8knPXoNEz6Q+M/6W4M0QhtIyp\n1MA4axiQyFgMycrMhAn7r8dqX711W81Y3KzXmnI4qWeXVafZnE+WQP9ml3pFSps2\nM+P8/R5tpqhbHnu1rGYRInhl0VgDJL0mQ95wGmZgHbeFhNsW3r+KumHaUITRSWfK\ntKIjen50ac7mcM6IobOh6y/B/DHp18r79biaBzryL8hCcN+q/chl6OnNEt7Ya5E=\n=1JLu\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 000cd359db4b51b54a421f8f3aa9333405af04f2\nparent c50c0b90b243fb3eaaf65a1750f971c0faa210a9\nauthor Emma Blue <90632321+emmambd@users.noreply.github.com> 1690901748 -0400\ncommitter GitHub <noreply@github.com> 1690901748 -0400\n\nBest practices: add recommended presence (#386)\n\n* Add recommended presence\r\n\r\n* feed_info.txt best practices\r\n\r\n* route_short_name best practice\r\n\r\n* agency_id best practice\r\n\r\n* timepoint best practice\r\n\r\n* inlining image for shape_dist_traveled\r\n\r\n* shape_dist_traveled field best practices\r\n\r\n* block_id field presence best practice\r\n\r\n* Clearer recommended definition\r\n\r\n* clarity improvements\r\n\r\n* Remove \"may\" for block_id in frequency based trips\r\n\r\n* fix shape_dist_traveled cell formatting"
+      }
+    },
+    "url": "https://api.github.com/repos/google/transit/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+    "html_url": "https://github.com/google/transit/commit/17a032142f52cda34b8f8dcd5ffb7c05968447cd",
+    "comments_url": "https://api.github.com/repos/google/transit/commits/17a032142f52cda34b8f8dcd5ffb7c05968447cd/comments",
+    "author": {
+      "login": "emmambd",
+      "id": 90632321,
+      "node_id": "MDQ6VXNlcjkwNjMyMzIx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90632321?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/emmambd",
+      "html_url": "https://github.com/emmambd",
+      "followers_url": "https://api.github.com/users/emmambd/followers",
+      "following_url": "https://api.github.com/users/emmambd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/emmambd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/emmambd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/emmambd/subscriptions",
+      "organizations_url": "https://api.github.com/users/emmambd/orgs",
+      "repos_url": "https://api.github.com/users/emmambd/repos",
+      "events_url": "https://api.github.com/users/emmambd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/emmambd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+        "url": "https://api.github.com/repos/google/transit/commits/c50c0b90b243fb3eaaf65a1750f971c0faa210a9",
+        "html_url": "https://github.com/google/transit/commit/c50c0b90b243fb3eaaf65a1750f971c0faa210a9"
+      }
+    ]
+  }
+]
