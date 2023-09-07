@@ -21,6 +21,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }} 
 
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
       - name: Set up Git
         id: git-setup
         run: |
@@ -39,14 +44,18 @@ jobs:
           echo "today=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
       - name: Get Commits
-        uses: octokit/request-action@v2.1.0
+        uses: octokit/request-action@v2.x
         id: get_commits
         with:
-          route: GET /repos/{owner}/{repo}/commits
+          route: GET /repos/OWNER/REPO/commits
           owner: google
           repo: transit
           path: gtfs/spec/en/reference.md
+          mediaType: |
+            format: json
           since: '2023-08-01T00:00:00Z'
+        env:
+          GITHUB_TOKEN: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
 
       # - name: Fetch Commits from reference.md in Google's Transit Repository
       #   id: fetch-commits
