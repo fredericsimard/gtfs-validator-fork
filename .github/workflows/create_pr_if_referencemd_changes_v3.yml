@@ -95,7 +95,7 @@ jobs:
 
                 const counter = index + 1;
 
-                return `# \`Commit Nº ${counter}\`\n### AUTHOR × DATE\n* **${item.author}** ( _${item.username}_ )\n* **${formattedDateETC}**   @   ${formattedTimeETC} ETC (${formattedTimeUTC})\n### MESSAGE\n\`\`\`\n${item.message}\n\`\`\`### FILES CHANGED\n* ${item.html_url}\n---\n`;
+                return `# \`Commit Nº ${counter}\`\n### AUTHOR × DATE\n* **${item.author}** ( _${item.username}_ )\n* **${formattedDateETC}**   @   ${formattedTimeETC} ETC (${formattedTimeUTC})\n### MESSAGE\n\`\`\`\n${item.message}\n\`\`\`\n### FILES CHANGED\n* ${item.html_url}\n---\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
