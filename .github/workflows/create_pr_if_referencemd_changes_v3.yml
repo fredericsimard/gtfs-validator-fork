@@ -75,13 +75,14 @@ jobs:
               const formattedExtractedData = extractedData.map((item, index) => {
                 const dateObjectUTC = new Date(item.date);
                 const dateObjectETC = new Date(dateObjectUTC.toLocaleString('en-US', { timeZone: 'America/Toronto' }));
+                
                 const formattedDateETC = dateObjectETC.toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'long',
                   day: 'numeric',
                 });
 
-                const formattedTimeUTC = dateObject.toLocaleTimeString('en-US', {
+                const formattedTimeUTC = dateObjectUTC.toLocaleTimeString('en-US', {
                   hour: '2-digit',
                   minute: '2-digit',
                   timeZoneName: 'short',
