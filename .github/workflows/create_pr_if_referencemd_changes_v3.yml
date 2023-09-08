@@ -62,31 +62,23 @@ jobs:
             const commits = response.data;
             core.setOutput('commits_data', commits);
             core.setOutput('commits_length', commits.length);
-
+      
             if (commits.length > 0) {
+              const parsedJson = JSON.parse(commits);
+              const extractedData = parsedJson.map(item => ({
+                author: item.commit.author.name,
+                date: item.commit.author.date,
+                message: item.commit.message,
+                html_url: item.html_url
+              }));
+              core.setOutput('extracted_data', JSON.stringify(extractedData));
               core.setOutput('condition_met', 'true');
             } else {
+              core.setOutput('extracted_data', '[]');
               core.setOutput('condition_met', 'false');
             }
-
-      - name: Extract JSON Fields
-        id: extract-fields
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const rawJson = context.payload.workflow_run.jobs.process_json.outputs.commits_data;
-            const parsedJson = JSON.parse(rawJson);
-            const extractedData = parsedJson.map(item => ({
-              author: item.commit.author.name,
-              date: item.commit.author.date,
-              message: item.commit.message,
-              html_url: item.html_url
-            }));
       
-            core.setOutput('extracted_data', JSON.stringify(extractedData))
-      
-      - name: Create Issue on Failed workflow
+      - name: Create Issue
         if: steps.process_json.outputs.condition_met == 'true'
         uses: dacbd/create-issue-action@main
         with:
@@ -98,5 +90,5 @@ jobs:
             Number of new commits: ${{ steps.process_json.outputs.commits_length }}
             Raw data:
             
-            "${{ steps.extract-fields.outputs.extracted_data }}"
+            "${{ steps.process_json.outputs.extracted_data }}"
           assignees: ${{ steps.git-setup.outputs.assigned }}
