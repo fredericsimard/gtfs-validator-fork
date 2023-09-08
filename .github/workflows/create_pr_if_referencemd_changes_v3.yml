@@ -75,7 +75,7 @@ jobs:
               const formattedExtractedData = extractedData.map((item, index) => {
                 const dateObjectUTC = new Date(item.date);
                 const dateObjectETC = new Date(dateObjectUTC.toLocaleString('en-US', { timeZone: 'America/Toronto' }));
-                
+
                 const formattedDateETC = dateObjectETC.toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'long',
@@ -91,12 +91,11 @@ jobs:
                 const formattedTimeETC = dateObjectETC.toLocaleTimeString('en-US', {
                   hour: '2-digit',
                   minute: '2-digit',
-                  timeZoneName: 'short',
                 });
 
                 const counter = index + 1;
 
-                return `# \`Commit no. ${counter}\`\n### \`AUTHOR\`\n* ${item.author} ( _${item.username}_ )\n* on ${formattedDateETC}   @   ${formattedTimeETC} (${formattedTimeUTC})\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
+                return `# \`Commit no. ${counter}\`\n### \`AUTHOR & DATE\`\n* **${item.author}** ( _${item.username}_ )\n* **${formattedDateETC}**   @   ${formattedTimeETC} ETC (${formattedTimeUTC})\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
