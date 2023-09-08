@@ -72,7 +72,7 @@ jobs:
                 html_url: item.html_url
               }));
 
-              const formattedExtractedData = extractedData.map(item => {
+              const formattedExtractedData = extractedData.map((item, index) => {
                 const dateObject = new Date(item.date);
                 const formattedDate = dateObject.toLocaleDateString('en-US', {
                   year: 'numeric',
@@ -86,9 +86,9 @@ jobs:
                   timeZoneName: 'short',
                 });
 
-                const counter = index + 1; // Add 1 to the index to start from 1
+                const counter = index + 1;
 
-                return `# \`N°${counter}\`\n### \`AUTHOR\`\n${item.author} ( _${item.username}_ )\nOn ${formattedDate} at ${formattedTime}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
+                return `# \`No. ${counter}\`\n### \`AUTHOR\`\n${item.author} ( _${item.username}_ )\nOn ${formattedDate} at ${formattedTime}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
