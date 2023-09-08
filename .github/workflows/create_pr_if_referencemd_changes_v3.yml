@@ -78,17 +78,15 @@ jobs:
                   year: 'numeric',
                   month: 'long',
                   day: 'numeric',
-                  hour: '2-digit',
-                  minute: '2-digit',
-                  timeZoneName: 'short',
                 });
 
                 const formattedTime = dateObject.toLocaleTimeString('en-US', {
                   hour: '2-digit',
                   minute: '2-digit',
+                  timeZoneName: 'short',
                 });
 
-                return `### \`AUTHOR\`: ${item.author} ( _${item.username}_ ) on ${formattedDate} at ${formattedTime}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
+                return `### \`AUTHOR\`\n${item.author} ( _${item.username}_ )\nOn ${formattedDate} at ${formattedTime}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
