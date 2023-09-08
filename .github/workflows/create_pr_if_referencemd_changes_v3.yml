@@ -68,7 +68,7 @@ jobs:
                 author: item.commit.author.name,
                 username: item.author.login,
                 date: item.commit.author.date,
-                message: item.commit.message.replace(/\s+/g, ' ').trim(),
+                message: item.commit.message.replace(/(\r\n|\n|\r)/gm, ' ').trim(),
                 html_url: item.html_url
               }));
 
