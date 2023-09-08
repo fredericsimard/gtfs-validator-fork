@@ -71,7 +71,7 @@ jobs:
                 html_url: item.html_url
               }));
               const formattedExtractedData = extractedData.map(item => {
-                return `### Author: ${item.author}\n### Date: ${item.date}\n### Message\n\n${item.message}\n\n### Details\nClick here for more information: ${item.html_url}\n\n---\n\n`;
+                return `### AUTHOR: ${item.author}\n### DATE: ${item.date}\n### MESSAGE\n\n${item.message}\n\n### DETAILS\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
@@ -89,10 +89,7 @@ jobs:
         uses: dacbd/create-issue-action@main
         with:
           token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
-          title: Changes made to reference.md in the Google Transit repo.
+          title: ${{ steps.dates.outputs.today }} — ${{ steps.process_json.outputs.commits_length }} new commit(s) made to `reference.md` in Google Transit's repo
           body: |
-            # ${{ steps.process_json.outputs.commits_length }} new commit(s) to `reference.md` in Google Transit's repo
-            ### ${{ steps.dates.outputs.today }}
-            ---
             ${{ steps.process_json.outputs.extracted_data }}
           assignees: ${{ steps.git-setup.outputs.assigned }}
