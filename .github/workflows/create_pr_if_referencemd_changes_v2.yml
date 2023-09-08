@@ -57,7 +57,7 @@ jobs:
         id: analyse-json
         run: |
           # Extract the first element of the JSON array
-          first_element=$(echo ${{ steps.get-commits.outputs.data }} | jq '.[0]')
+          first_element=$(echo '${{ steps.get-commits.outputs.data }}' | jq -R '.[0]')
           echo "json_object=${first_element}" >> $GITHUB_OUTPUT
 
         shell: bash
