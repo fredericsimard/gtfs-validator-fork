@@ -73,11 +73,8 @@ jobs:
       - name: Analyze JSON
         id: analyse-json
         run: |
-          # Read the JSON response from the get-commits step
-          json_data="${{ steps.get-commits.outputs.data }}"
-
-          # Use jq to extract the first element of the JSON array
-          first_element=$(echo "${json_data}" | jq ".[0]")
+          # Extract the first element of the JSON array
+          first_element=$(echo "${{ steps.get-commits.outputs.data }}" | jq ".[0]")
 
           echo "json_object=${first_element}" >> $GITHUB_OUTPUT
 
