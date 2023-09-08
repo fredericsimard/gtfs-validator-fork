@@ -71,7 +71,7 @@ jobs:
                 html_url: item.html_url
               }));
               const formattedExtractedData = extractedData.map(item => {
-                return `Author: ${item.author}\nDate: ${item.date}\nMessage: ${item.message}\nHTML URL: ${item.html_url}\n`;
+                return `Author: ${item.author}\nDate: ${item.date}\nMessage: ${item.message}\nHTML URL: ${item.html_url}\n\n---------------------------\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
