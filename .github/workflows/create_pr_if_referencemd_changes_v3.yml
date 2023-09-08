@@ -1,4 +1,4 @@
-name: Fetch Commits and Create PR
+name: Fetch Commits and create issue with details
 
 # on:
 #   schedule:
@@ -76,7 +76,7 @@ jobs:
           extracted_data=$(echo '${{ steps.process_json.outputs.commits_data }}' | jq 'map({author: .commit.author.name, date: .commit.author.date, message: .commit.message, html_url: .html_url})')
       
           # Store the extracted JSON in an environment variable for later use
-          echo "new_branch=${new_branch}" >> $GITHUB_OUTPUT
+          echo "extracted_data=${extracted_data}" >> $GITHUB_OUTPUT
         shell: bash
 
         
@@ -89,57 +89,9 @@ jobs:
           title: Changes made to reference.md in the Google Transit repo.
           body: |
             ### Changes made to `reference.md` from Google Transit's repo
-            Date: "${{ steps.dates.outputs.today }}"
-            Number of new commits: "${{ steps.process_json.outputs.commits_length }}"
+            Date: ${{ steps.dates.outputs.today }}
+            Number of new commits: ${{ steps.process_json.outputs.commits_length }}
             Raw data:
             
             "${{ steps.extract-fields.outputs.extracted_data }}"
-          assignees: fredericsimard
-
-      # - name: Create Branch and commit in GTFS validator repo
-      #   id: create-branch-commit
-      #   if: steps.process_json.outputs.condition_met == 'true'
-      #   run: |
-      #     access_token=${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
-      #     repo_owner=fredericsimard         # TO CHANGE IN FINAL VERSION
-      #     repo_name=gtfs-validator-fork     # TO CHANGE IN FINAL VERSION
-      #     base_branch=master
-      #     new_branch=reference-md-commits-${{ steps.dates.outputs.today }}
-      #     file_paths=${{ steps.extract-file-paths.outputs.file-paths }}
-
-      #     # Create a new branch
-      #     git checkout -b "$new_branch"
-
-      #     # Add all files to the commit
-      #     git add .
-
-      #     # Commit and push changes to the new branch
-      #     git commit -am "Changes made to reference.md in the Google Transit repo."
-
-      #     echo "base_branch=${base_branch}" >> $GITHUB_OUTPUT
-      #     echo "new_branch=${new_branch}" >> $GITHUB_OUTPUT
-      #     echo "commits? ${{ steps.process_json.outputs.condition_met }}"
-
-      # - name: Push changes
-      #   id: push-changes
-      #   if: steps.condition_check.outputs.condition_met == 'true'
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
-      #     branch: ${{ steps.create-branch-commit.outputs.new_branch }}
-      #     force: true
-
-      # - name: Create PR
-      #   id: create-pr
-      #   if: steps.process_json.outputs.condition_met == 'true'
-      #   uses: peter-evans/create-pull-request@v5.0.2
-      #   with:
-      #     token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
-      #     branch: ${{ steps.create-branch-commit.outputs.new_branch }}
-      #     base: ${{ steps.create-branch-commit.outputs.base_branch }}
-      #     title: Changes made to `reference.md` from Google Transit's repo
-      #     body: Commits have been made to the `reference.md` file in the last 24 hours (${{ steps.dates.outputs.yesterday }} at midnight UTC). Automatically generated a pull request.
-      #     author: "${{ steps.git-setup.outputs.user_name }} <${{ steps.git-setup.outputs.user_email }}>"
-      #     reviewers: ${{ steps.git-setup.outputs.reviewer }}
-      #     assignees: ${{ steps.git-setup.outputs.assigned }}
-      #     add-paths: ${{ steps.extract-file-paths.outputs.file-paths }}
+          assignees: ${{ steps.git-setup.outputs.assigned }}
