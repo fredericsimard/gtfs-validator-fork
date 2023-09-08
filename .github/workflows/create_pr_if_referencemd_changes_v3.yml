@@ -72,7 +72,7 @@ jobs:
                 html_url: item.html_url
               }));
               const formattedExtractedData = extractedData.map(item => {
-                return `### \`AUTHOR\`: ${item.author} (${username})     \`DATE\`: ${item.date}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
+                return `### \`AUTHOR\`: ${item.author} ( ${item.username} )     \`DATE\`: ${item.date}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
