@@ -66,12 +66,13 @@ jobs:
             if (commits.length > 0) {
               const extractedData = commits.map(item => ({
                 author: item.commit.author.name,
+                author_gh_username: item.author.login,
                 date: item.commit.author.date,
                 message: item.commit.message,
                 html_url: item.html_url
               }));
               const formattedExtractedData = extractedData.map(item => {
-                return `### AUTHOR: ${item.author}\n### DATE: ${item.date}\n### MESSAGE\n\n${item.message}\n\n### DETAILS\n${item.html_url}\n\n---\n\n`;
+                return `### \`AUTHOR\`: ${item.author} (${author_gh_username})     \`DATE\`: ${item.date}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
