@@ -64,8 +64,7 @@ jobs:
             core.setOutput('commits_length', commits.length);
       
             if (commits.length > 0) {
-              const parsedJson = JSON.parse(commits);
-              const extractedData = parsedJson.map(item => ({
+              const extractedData = commits.map(item => ({
                 author: item.commit.author.name,
                 date: item.commit.author.date,
                 message: item.commit.message,
