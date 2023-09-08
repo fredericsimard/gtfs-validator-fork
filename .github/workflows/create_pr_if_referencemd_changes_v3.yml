@@ -65,6 +65,14 @@ jobs:
       
             if (commits.length > 0) {
               const extractedData = commits.map(item => ({
+                author: item.commit.author.name,
+                username: item.author.login,
+                date: item.commit.author.date,
+                message: item.commit.message,
+                html_url: item.html_url
+              }));
+              
+              const formattedExtractedData = extractedData.map(item => {
                 const dateObject = new Date(item.date);
                 const formattedDate = dateObject.toLocaleDateString('en-US', {
                   year: 'numeric',
@@ -75,14 +83,7 @@ jobs:
                   second: '2-digit',
                   timeZoneName: 'short',
                 });
-              
-                author: item.commit.author.name,
-                username: item.author.login,
-                date: item.commit.author.date,
-                message: item.commit.message,
-                html_url: item.html_url
-              }));
-              const formattedExtractedData = extractedData.map(item => {
+
                 return `### \`AUTHOR\`: ${item.author} ( _${item.username}_ ) on ${formattedDate}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
