@@ -70,13 +70,20 @@ jobs:
                 message: item.commit.message,
                 html_url: item.html_url
               }));
-              core.setOutput('extracted_data', JSON.stringify(extractedData));
+              const formattedExtractedData = extractedData.map(item => {
+                return `Author: ${item.author}\nDate: ${item.date}\nMessage: ${item.message}\nHTML URL: ${item.html_url}\n`;
+              }).join('\n');
+              
+              core.setOutput('extracted_data', formattedExtractedData);
               core.setOutput('condition_met', 'true');
+
             } else {
               core.setOutput('extracted_data', '[]');
               core.setOutput('condition_met', 'false');
             }
       
+           # core.setOutput('extracted_data', JSON.stringify(extractedData));
+
       - name: Create Issue
         if: steps.process_json.outputs.condition_met == 'true'
         uses: dacbd/create-issue-action@main
