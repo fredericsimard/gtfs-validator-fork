@@ -86,7 +86,9 @@ jobs:
                   timeZoneName: 'short',
                 });
 
-                return `### \`AUTHOR\`\n${item.author} ( _${item.username}_ )\nOn ${formattedDate} at ${formattedTime}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
+                const counter = index + 1; // Add 1 to the index to start from 1
+
+                return `# \`N°${counter}\`\n### \`AUTHOR\`\n${item.author} ( _${item.username}_ )\nOn ${formattedDate} at ${formattedTime}\n### \`MESSAGE\`\n\n${item.message}\n\n### \`DETAILS\`\n${item.html_url}\n\n---\n\n`;
               }).join('\n');
               
               core.setOutput('extracted_data', formattedExtractedData);
