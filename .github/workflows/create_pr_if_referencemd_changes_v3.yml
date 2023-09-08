@@ -91,10 +91,10 @@ jobs:
           token: ${{ secrets.FRED_PERSONAL_GITHUB_TOKEN }}
           title: Changes made to reference.md in the Google Transit repo.
           body: |
-            ### Changes made to `reference.md` from Google Transit's repo
-            Date: ${{ steps.dates.outputs.today }}
-            Number of new commits: ${{ steps.process_json.outputs.commits_length }}
-            Raw data:
-            
-            "${{ steps.process_json.outputs.extracted_data }}"
+            # Changes made to `reference.md` from Google Transit's repo
+            ## Date: ${{ steps.dates.outputs.today }}
+            ## Number of new commits: ${{ steps.process_json.outputs.commits_length }}
+            ---
+            ## Raw data:
+            ${{ steps.process_json.outputs.extracted_data }}
           assignees: ${{ steps.git-setup.outputs.assigned }}
