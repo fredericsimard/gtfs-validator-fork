@@ -73,7 +73,8 @@ jobs:
         id: extract-fields
         run: |
           # Extract specific fields from the JSON and create a new JSON object
-          extracted_data=$(echo '${{ steps.process_json.outputs.commits_data }}' | jq 'map({author: .commit.author.name, date: .commit.author.date, message: .commit.message, html_url: .html_url})')
+          raw_json = "${{ steps.process_json.outputs.commits_data }}"
+          extracted_data=$(echo ${raw_json} | jq 'map({author: .commit.author.name, date: .commit.author.date, message: .commit.message, html_url: .html_url})')
       
           # Store the extracted JSON in an environment variable for later use
           echo "extracted_data=${extracted_data}" >> $GITHUB_OUTPUT
