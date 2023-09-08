@@ -56,8 +56,10 @@ jobs:
       - name: Analyze JSON
         id: analyse-json
         run: |
+          json_data="${{ steps.get-commits.outputs.data }}"
+          escaped_json_data=$(echo "${json_data}" | sed 's/"/\\"/g')
           # Extract the first element of the JSON array
-          first_element=$(echo '${{ steps.get-commits.outputs.data }}' | jq '.[0]')
+          first_element=$(echo "${escaped_json_data}" | jq '.[0]')
           echo "json_object=${first_element}" >> $GITHUB_OUTPUT
 
         shell: bash
