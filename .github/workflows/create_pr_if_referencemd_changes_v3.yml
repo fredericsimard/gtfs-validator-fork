@@ -60,8 +60,8 @@ jobs:
             });
             
             const commits = response.data;
-            core.setOutput('commits_data', commits)
-            core.setOutput('commits_length', commits.length)
+            core.setOutput('commits_data', commits);
+            core.setOutput('commits_length', commits.length);
 
             if (commits.length > 0) {
               core.setOutput('condition_met', 'true');
@@ -71,16 +71,20 @@ jobs:
 
       - name: Extract JSON Fields
         id: extract-fields
-        run: |
-          # Extract specific fields from the JSON and create a new JSON object
-          raw_json = "${{ steps.process_json.outputs.commits_data }}"
-          extracted_data=$(echo ${raw_json} | jq 'map({author: .commit.author.name, date: .commit.author.date, message: .commit.message, html_url: .html_url})')
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const rawJson = context.payload.workflow_run.jobs.process_json.outputs.commits_data;
+            const parsedJson = JSON.parse(rawJson);
+            const extractedData = parsedJson.map(item => ({
+              author: item.commit.author.name,
+              date: item.commit.author.date,
+              message: item.commit.message,
+              html_url: item.html_url
+            }));
       
-          # Store the extracted JSON in an environment variable for later use
-          echo "extracted_data=${extracted_data}" >> $GITHUB_OUTPUT
-        shell: bash
-
-        
+            core.setOutput('extracted_data', JSON.stringify(extractedData))
       
       - name: Create Issue on Failed workflow
         if: steps.process_json.outputs.condition_met == 'true'
