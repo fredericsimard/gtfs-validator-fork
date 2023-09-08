@@ -70,22 +70,23 @@ jobs:
       #   # 2023-08-14T00:00:00Z
       #   # ${{ steps.dates.outputs.yesterday }}T00:00:00Z
 
-      - name: Read JSON
+      - name: Analyze JSON
+        id: analyse-json
         run: |
           # Read the JSON response from the get-commits step
           json_data="${{ steps.get-commits.outputs.data }}"
 
           # Use jq to extract the first element of the JSON array
-          first_element=$(echo "$json_data" | jq '.[0]')
+          first_element=$(echo "${json_data}" | jq ".[0]")
 
-          echo "json_object=${json_data}" >> $GITHUB_OUTPUT
+          echo "json_object=${first_element}" >> $GITHUB_OUTPUT
 
         shell: bash
 
       - name: Check condition
         id: condition_check
         run: |
-          num_elements=$(echo "${{ steps.get-commits.outputs.json_object }}" | jq 'length')
+          num_elements=$(echo "${{ steps.analyse-json.outputs.json_object }}" | jq 'length')
           
           if [ "${num_elements}" -gt 0 ]; then
             echo "condition_met=true" >> $GITHUB_OUTPUT
