@@ -13,6 +13,20 @@ on:
     types: [ prereleased, released ]
   workflow_dispatch:
 
+ env:   
+  MACOS_APP_NAME: "GTFS Validator"
+  MACOS_NOTARIZATION_NAME: "notarization.zip"
+  MACOS_TARGET_PATH: "app/pkg/build/jpackage/GTFS Validator.app"
+  MACOS_TARGET_PATH_ESCAPED: "app/pkg/build/jpackage/GTFS\ Validator.app"
+  MACOS_TARGET_DEST_PATH: "app/pkg/build/jpackage"
+  MACOS_CERTIFICATE: ${{ secrets.MACOS_DEVELOPER_ID_APPLICATION_CERTIFICATE_P12_BASE64 }}
+  MACOS_CERTIFICATE_PWD: ${{ secrets.MACOS_DEVELOPER_ID_APPLICATION_CERTIFICATE_PASSWORD }}
+  MACOS_CERTIFICATE_NAME: ${{ secrets.MACOS_DEVELOPER_ID_APPLICATION_CERTIFICATE_NAME }}
+  MACOS_CI_KEYCHAIN_PWD: ${{ secrets.MACOS_KEYCHAIN_PASSWORD }}
+  PROD_MACOS_NOTARIZATION_APPLE_ID: ${{ secrets.MACOS_NOTARIZATION_USERNAME }}
+  PROD_MACOS_NOTARIZATION_TEAM_ID: ${{ secrets.MACOS_NOTARIZATION_TEAM_ID }}
+  PROD_MACOS_NOTARIZATION_PWD: ${{ secrets.MACOS_NOTARIZATION_PASSWORD }}
+
 jobs:
   validate_gradle_wrapper:
     runs-on: ubuntu-latest
@@ -25,15 +39,14 @@ jobs:
     name: Build and upload packaged app
     runs-on: ${{ matrix.os }}
     strategy:
-#     Adding fail-fast: false so at least some artifacts gets uploaded if others fail
+      # Adding fail-fast: false so at least some artifacts gets uploaded if others fail
       fail-fast: false
       matrix:
         os: [ macos-latest, windows-latest, ubuntu-latest ]
     steps:
       - uses: actions/checkout@v3
         with:
-          # We need to download all tags so that the axion-release-plugin
-          # can resolve the most recent version tag.
+          # We need to download all tags so that the axion-release-plugin can resolve the most recent version tag.
           fetch-depth: 0
 
       - name: Set up JDK 17
@@ -48,13 +61,6 @@ jobs:
       - name: "macOS — Codesign app bundle"
         id: codesign
         if: matrix.os == 'macos-latest' && (github.event_name == 'push' || github.event_name == 'release')
-        # Extract the secrets we defined earlier as environment variables
-        env:
-          MACOS_CERTIFICATE: ${{ secrets.MACOS_DEVELOPER_ID_APPLICATION_CERTIFICATE_P12_BASE64 }}
-          MACOS_CERTIFICATE_PWD: ${{ secrets.MACOS_DEVELOPER_ID_APPLICATION_CERTIFICATE_PASSWORD }}
-          MACOS_CERTIFICATE_NAME: ${{ secrets.MACOS_DEVELOPER_ID_APPLICATION_CERTIFICATE_NAME }}
-          MACOS_CI_KEYCHAIN_PWD: ${{ secrets.MACOS_KEYCHAIN_PASSWORD }}
-          MACOS_TARGET_PATH: "app/pkg/build/jpackage/GTFS Validator.app"
         run: |
           # Turn our base64-encoded certificate back to a regular .p12 file
           echo $MACOS_CERTIFICATE | base64 --decode > certificate.p12
@@ -67,7 +73,7 @@ jobs:
           security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "${MACOS_CI_KEYCHAIN_PWD}" build.keychain
 
           # We finally codesign our app bundle, specifying the Hardened runtime option
-          #/usr/bin/codesign --force -s "${MACOS_CERTIFICATE_NAME}" --options runtime $MACOS_TARGET_PATH -v
+          /usr/bin/codesign --force -s "${MACOS_CERTIFICATE_NAME}" --options runtime $MACOS_TARGET_PATH -v
 
       - name: "Package GUI app installer with Gradle"
         id: package_gui_app
@@ -77,16 +83,10 @@ jobs:
             jpackage
             -Psign-app=${{github.event_name == 'push' || github.event_name == 'release'}}
 
-      # On MacOS, we now submit the app for "notarization", where Apple will scan the app for
-      # malware and other issues.  This step can take a few minutes or more; the action will wait
-      # until the report is available.
+      # On MacOS, we now submit the app for "notarization", where Apple will scan the app for malware and other issues.  This step can take a few minutes or more; the action will wait until the report is available.
       - name: "MacOS - Notarize & Staple Release Build"
         if: matrix.os == 'macos-latest' && (github.event_name == 'push' || github.event_name == 'release')
         id: notarize_staple_macos_app
-        env:
-          PROD_MACOS_NOTARIZATION_APPLE_ID: ${{ secrets.MACOS_NOTARIZATION_USERNAME }}
-          PROD_MACOS_NOTARIZATION_TEAM_ID: ${{ secrets.MACOS_NOTARIZATION_TEAM_ID }}
-          PROD_MACOS_NOTARIZATION_PWD: ${{ secrets.MACOS_NOTARIZATION_PASSWORD }}
         run: |
           # Store the notarization credentials so that we can prevent a UI password dialog
           # from blocking the CI
@@ -99,7 +99,7 @@ jobs:
           # notarization service
       
           echo "Creating temp notarization archive"
-          ditto -c -k --keepParent ${{ steps.codesign.outputs.MACOS_TARGET_PATH }} "notarization.zip"
+          ditto -c -k --keepParent ${{ env.MACOS_TARGET_PATH }} "${{ env.MACOS_NOTARIZATION_NAME }}"
       
           # Here we send the notarization request to the Apple's Notarization service, waiting for the result.
           # This typically takes a few seconds inside a CI environment, but it might take more depending on the App
@@ -107,12 +107,12 @@ jobs:
           # you're curious
       
           echo "Notarize app"
-          xcrun notarytool submit "notarization.zip" --keychain-profile "notarytool-profile" --wait
+          xcrun notarytool submit "${{ env.MACOS_NOTARIZATION_NAME }}" --keychain-profile "notarytool-profile" --wait
       
           # Finally, we need to "attach the staple" to our executable, which will allow our app to be
           # validated by macOS even when an internet connection is not available.
           echo "Attach staple"
-          xcrun stapler staple ${{ steps.codesign.outputs.MACOS_TARGET_PATH }} #
+          xcrun stapler staple ${{ env.MACOS_TARGET_PATH }}
 
       # Now that we have a notarized app, we can package it.
       - name: "Mac OS - Package the app"
@@ -124,26 +124,26 @@ jobs:
           appVersion=${appVersion//-SNAPSHOT/}
           jpackage \
            --type dmg \
-           --name 'GTFS Validator' \
+           --name '${{ env.MACOS_APP_NAME }}' \
            --app-version ${appVersion} \
-           --app-image app/pkg/build/jpackage/GTFS\ Validator.app \
-           --dest app/pkg/build/jpackage
+           --app-image ${{ env.MACOS_TARGET_PATH_ESCAPED }} \
+           --dest ${{ env.MACOS_TARGET_DEST_PATH }}
           jpackage \
            --type pkg \
-           --name 'GTFS Validator' \
+           --name '${{ env.MACOS_APP_NAME }}' \
            --app-version ${appVersion} \
-           --app-image app/pkg/build/jpackage/GTFS\ Validator.app \
-           --dest app/pkg/build/jpackage
+           --app-image ${{ env.MACOS_TARGET_PATH_ESCAPED }} \
+           --dest ${{ env.MACOS_TARGET_DEST_PATH }}
 
       - name: "Upload Installer"
         uses: actions/upload-artifact@v3
         with:
           name: Installer - ${{matrix.os}}
           path: |
-            app/pkg/build/jpackage/*.msi
-            app/pkg/build/jpackage/*.dmg
-            app/pkg/build/jpackage/*.pkg
-            app/pkg/build/jpackage/*.deb
+            ${{ env.MACOS_TARGET_DEST_PATH }}/*.msi
+            ${{ env.MACOS_TARGET_DEST_PATH }}/*.dmg
+            ${{ env.MACOS_TARGET_DEST_PATH }}/*.pkg
+            ${{ env.MACOS_TARGET_DEST_PATH }}/*.deb
 
       - name: "Upload assets to release"
         if: github.event_name == 'prerelease' || github.event_name == 'release'
@@ -160,7 +160,7 @@ jobs:
             const fs = require('fs').promises;
             const { repo: { owner, repo }, sha } = context;
 
-            for (let file of await fs.readdir('./app/pkg/build/jpackage')) {
+            for (let file of await fs.readdir('./${{ env.MACOS_TARGET_DEST_PATH }}')) {
               const extension = file.split('.').pop()
               if (extension != "msi" && extension != "dmg" && extension != "pkg" && extension != "deb")
                 continue;
@@ -171,6 +171,6 @@ jobs:
                 owner, repo,
                 release_id: context.payload.release.id,
                 name: `Installer ${os}.${extension}`,
-                data: await fs.readFile(`./app/pkg/build/jpackage/${file}`)
+                data: await fs.readFile(`./${{ env.MACOS_TARGET_DEST_PATH }}/${file}`)
               });            
             }
