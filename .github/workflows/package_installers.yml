@@ -36,7 +36,7 @@ jobs:
 
   build_push:
     needs: [ validate_gradle_wrapper ]
-    name: Build and upload packaged app
+    name: Build & upload app
     runs-on: ${{ matrix.os }}
     strategy:
       # Adding fail-fast: false so at least some artifacts gets uploaded if others fail
